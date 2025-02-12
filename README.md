@@ -8,6 +8,10 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 4. make the students understand advanced computer graphics techniques and applications
 5. demonstrate how to solve problem by designing project
 
+# Suggested Books
+
+**Drive Link** https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=drive_link
+
 # Playlist
 
 ## Till MID
