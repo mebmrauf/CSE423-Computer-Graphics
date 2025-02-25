@@ -43,20 +43,21 @@ Homogeneity: (sa)·b = s(a·b)
 ```
 ## Cross Product / Vector Multiplication
 ```
-bXc = |b||c|Sinθâ
+bxc = |b||c|Sinθâ
 ```
 ```
 Properties
-Antisymmetry: aΧb = - bΧa
-Linearity: (a+c) Χ b = aΧb + cΧb
-Homogeneity: (sa) Χ b = s(aΧb)
+Antisymmetry: axb = - bΧa
+Linearity: (a+c) x b = axb + cxb
+Homogeneity: (sa) x b = s(axb)
 ```
 Cross Product
 
-a X b
-<p>|i j k|</p>
+a x b
+<p>|i    j    k|</p>
 <p>|a<sub>x</sub> a<sub>y</sub> a<sub>z</sub>|</p>
 <p>|b<sub>x</sub> b<sub>y</sub> b<sub>z</sub>|</p>
+
 ```
 Geometric Interpretation of Cross Product
 aXb is perpendicular to both a and b 
