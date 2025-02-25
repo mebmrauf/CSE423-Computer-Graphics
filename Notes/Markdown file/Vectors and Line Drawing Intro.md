@@ -55,9 +55,9 @@ Homogeneity: (sa) x b = s(axb)
 
 a x b
 
-|i  j  k|
-<p>|a<sub>x</sub> a<sub>y</sub> a<sub>z</sub>|</p>
-<p>|b<sub>x</sub> b<sub>y</sub> b<sub>z</sub>|</p>
+`|i  j  k|`
+ <p>|a<sub>x</sub> a<sub>y</sub> a<sub>z</sub>|</p>
+ <p>|b<sub>x</sub> b<sub>y</sub> b<sub>z</sub>|</p>
 
 ```
 Geometric Interpretation of Cross Product
