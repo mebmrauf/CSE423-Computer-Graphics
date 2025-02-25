@@ -53,13 +53,13 @@ Homogeneity: (sa) x b = s(axb)
 ```
 <b>Cross Product</b>
 ```
-a x b
+  a x b
 |i  j   k|
 |ax ay az|
 |bx by bz|
 ```
 ```
 Geometric Interpretation of Cross Product
-aXb is perpendicular to both a and b 
-|aXb| = area of the parallelogram defined by a and b
+- aXb is perpendicular to both a and b 
+- |aXb| = area of the parallelogram defined by a and b
 ```
