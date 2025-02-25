@@ -1,19 +1,17 @@
 # CSE423: DDA, Midpoint Algorithm
 
 ## Digital Differential Algorithm (DDA)
-The line equation:
+The line equation: `y = mx + c`
 
-\[ y = mx + c \]
-
-If \(-1 < m < 1\):
+If `-1 < m < 1`:
 ```
-Xk+1 = Xk + 1
-Yk+1 = Yk + 1
+X_{k+1} = X_k + 1
+Y_{k+1} = Y_k + 1
 ```
 Else:
 ```
-Yk+1 = Yk + 1
-Xk+1 = Xk + 1/m
+Y_{k+1} = Y_k + 1
+X_{k+1} = X_k + \frac{1}{m}
 ```
 Then, round off to the nearest pixel.
 
