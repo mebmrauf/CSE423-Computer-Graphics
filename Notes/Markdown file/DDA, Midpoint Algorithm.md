@@ -5,13 +5,14 @@ The line equation: `y = mx + c`
 
 If `-1 < m < 1`:
 
-\[ X_{k+1} = X_k + 1 \]
-\[ Y_{k+1} = Y_k + 1 \]
+<p>X<sub>k+1</sub> = X<sub>k</sub> + 1
+Yk+1 = Yk + 1</p>
 
 Else:
-
-\[ Y_{k+1} = Y_k + 1 \]
-\[ X_{k+1} = X_k + rac{1}{m} \]
+```
+Yk+1 = Yk + 1
+Xk+1 = Xk + 1\m
+```
 Then, round off to the nearest pixel.
 
 ## Midpoint Algorithm
