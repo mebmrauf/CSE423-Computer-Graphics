@@ -23,13 +23,13 @@ The decision function for the midpoint determines the next pixel position:
 - If `d(+ve)`, choose the upper pixel `(NE)`
 
 ### Derivation:
-```
+`
 y = mx + c
 y = (y₂ - y₁) / (x₂ - x₁) * x + c
 y = (dy / dx) * x + c
 y = (2dy / 2dx) * x + c
 2xdy - 2ydx + 2cdx = 0
-```
+`
 Rewriting in standard form:
 ```
 Ax + By + C = 0
