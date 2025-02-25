@@ -24,12 +24,12 @@ a - b ≠ b - a
 
 ## Dot Product / Scalar Multiplication 
 ```
-a . b = | a | | b | cos θ
+a.b = |a||b|cos θ
 
 Properties:
 Symmetry: a·b = b·a
-Linearity: (a+c) ·b = a·b + c·b
-Homogeneity: (sa) ·b = s(a·b)
+Linearity: (a+c)·b = a·b + c·b
+Homogeneity: (sa)·b = s(a·b)
 |b|^2 = b·b
 a.1 = a
 a.0 = 0
