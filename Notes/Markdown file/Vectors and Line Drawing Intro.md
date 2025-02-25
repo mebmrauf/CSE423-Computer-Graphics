@@ -26,12 +26,14 @@ a - b ≠ b - a
 ```
 a.b = |a||b|cos θ
 
-Properties:
-Symmetry: a·b = b·a
-Linearity: (a+c)·b = a·b + c·b
-Homogeneity: (sa)·b = s(a·b)
 |b|^2 = b·b
 a.1 = a
 a.0 = 0
 a.(-1) = -a
+```
+```
+Properties:
+Symmetry: a·b = b·a
+Linearity: (a+c)·b = a·b + c·b
+Homogeneity: (sa)·b = s(a·b)
 ```
