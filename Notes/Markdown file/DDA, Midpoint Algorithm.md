@@ -3,12 +3,12 @@
 ## Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
 
-If `-1 < m < 1`:
+`If -1 < m < 1:`
 
 <p>X<sub>k+1</sub> = X<sub>k</sub> + 1
 Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
 
-Else:
+`else:`
 
 <p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1
 X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p>
