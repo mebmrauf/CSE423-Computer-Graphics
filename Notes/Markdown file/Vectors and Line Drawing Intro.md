@@ -8,7 +8,7 @@
 
 ### Unit Vector
 ```
-â = a/|a|
+â = a / |a|
 ```
 
 ### Vector Addition
@@ -51,10 +51,10 @@ Antisymmetry: axb = - bΧa
 Linearity: (a+c) x b = axb + cxb
 Homogeneity: (sa) x b = s(axb)
 ```
-Cross Product
+<b>Cross Product</b>
 
 a x b
-<p>|i    j    k|</p>
+`i    j    k|`
 <p>|a<sub>x</sub> a<sub>y</sub> a<sub>z</sub>|</p>
 <p>|b<sub>x</sub> b<sub>y</sub> b<sub>z</sub>|</p>
 
