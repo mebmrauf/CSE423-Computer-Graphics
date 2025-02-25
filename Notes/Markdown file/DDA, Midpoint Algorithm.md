@@ -29,14 +29,9 @@ y = (y₂ - y₁) / (x₂ - x₁) * x + c
 y = (dy / dx) * x + c
 y = (2dy / 2dx) * x + c
 2xdy - 2ydx + 2cdx = 0
-```
-Rewriting in standard form:
-```
 Ax + By + C = 0
-```
 
-Where:
-```
+Here,
 A = 2dy, B = -2dx, C = 2cdx
 ```
 
@@ -70,27 +65,21 @@ dx = x₂ - x₁ = 70 - 0 = 70
 #### Pixel (0,2):
 ```
 d = 2dy - dx = (2 * 50) - 70 = 30
-```
-Since \( d > 0 \), choose NE:
-```
+Since d > 0(+ve), choose NE:
 d = d + 2dy - 2dx = 30 + (2 * 50) - (2 * 70) = -10
 Next Pixel: (1,3)
 ```
 #### Pixel (1,3):
 ```
 d = -10 (from previous step)
-```
-Since \( d < 0 \), choose E:
-```
+Since d < 0(-ve), choose E:
 d = d + 2dy = -10 + (2 * 50) = 90
 Next Pixel: (2,3)
 ```
 #### Pixel (2,3):
 ```
 d = 90 (from previous step)
-```
-Since \( d > 0 \), choose NE:
-```
+Since d > 0(+ve), choose NE:
 d = d + 2dy - 2dx = 90 + (2 * 50) - (2 * 70) = 50
 Next Pixel: (3,4)
 ```
