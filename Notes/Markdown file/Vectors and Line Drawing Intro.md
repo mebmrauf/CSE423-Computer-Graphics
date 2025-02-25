@@ -24,16 +24,41 @@ a - b ≠ b - a
 
 ## Dot Product / Scalar Multiplication 
 ```
-a.b = |a||b|cos θ
+a.b = |a||b|Cosθ
 
 |b|^2 = b·b
 a.1 = a
 a.0 = 0
 a.(-1) = -a
+
+if  b and c are two vectors,
+Cosθ = bc
+if b.c = 0, b and c are perpendiicular
 ```
 ```
 Properties:
 Symmetry: a·b = b·a
 Linearity: (a+c)·b = a·b + c·b
 Homogeneity: (sa)·b = s(a·b)
+```
+## Cross Product / Vector Multiplication
+```
+bXc = |b||c|Sinθâ
+```
+```
+Properties
+Antisymmetry: aΧb = - bΧa
+Linearity: (a+c) Χ b = aΧb + cΧb
+Homogeneity: (sa) Χ b = s(aΧb)
+```
+Cross Product
+
+a X b
+<p>|i j k|</p>
+<p>|a<sub>x</sub> a<sub>y</sub> a<sub>z</sub>|</p>
+<p>|b<sub>x</sub> b<sub>y</sub> b<sub>z</sub>|</p>
+```
+Geometric Interpretation of Cross Product
+aXb is perpendicular to both a and b 
+|aXb| = area of the parallelogram defined by a and b
 ```
