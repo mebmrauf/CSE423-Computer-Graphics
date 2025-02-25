@@ -52,13 +52,12 @@ Linearity: (a+c) x b = axb + cxb
 Homogeneity: (sa) x b = s(axb)
 ```
 <b>Cross Product</b>
-
+```
 a x b
-
-`|i  j  k|`
- <p>|a<sub>x</sub> a<sub>y</sub> a<sub>z</sub>|</p>
- <p>|b<sub>x</sub> b<sub>y</sub> b<sub>z</sub>|</p>
-
+|i  j   k|
+|ax ay az|
+|bx by bz|
+```
 ```
 Geometric Interpretation of Cross Product
 aXb is perpendicular to both a and b 
