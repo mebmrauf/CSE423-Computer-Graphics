@@ -5,13 +5,13 @@ The line equation: `y = mx + c`
 
 `If -1 < m < 1:`
 
-<p>X<sub>k+1</sub> = X<sub>k</sub> + 1
-Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
+<p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p>
+<p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
 
 `else:`
 
-<p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1
-X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p>
+<p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
+<p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p>
 
 Then, round off to the nearest pixel.
 
@@ -25,13 +25,9 @@ The decision function for the midpoint determines the next pixel position:
 ### Derivation:
 ```
 y = mx + c
-```
-Substituting slope definition:
-```
 y = (y₂ - y₁) / (x₂ - x₁) * x + c
-```
-Multiplying by 2dx:
-```
+y = (dy / dx) * x + c
+y = (2dy / 2dx) * x + c
 2xdy - 2ydx + 2cdx = 0
 ```
 Rewriting in standard form:
@@ -44,9 +40,8 @@ A = 2dy, B = -2dx, C = 2cdx
 ```
 
 ### Initial Midpoint Calculation:
-```
-d = 2dy - dx
-```
+`d = 2dy - dx`
+
 ### Next Midpoint Calculation Based on Pixel Choice:
 - NE → `d = d + 2dy - 2dx`
 - E → `d = d + 2dy`
