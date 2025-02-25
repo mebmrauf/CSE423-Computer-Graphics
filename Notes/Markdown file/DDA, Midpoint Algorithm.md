@@ -24,8 +24,7 @@ The decision function for the midpoint determines the next pixel position:
 
 ### Derivation:
 
-- <p>dy = y<sub>2</sub> - y<sub>1</sub></p>
-- <p>dx = x<sub>2</sub> - x<sub>1</sub></p>
+- <p>dy = y<sub>2</sub> - y<sub>1</sub>; dx = x<sub>2</sub> - x<sub>1</sub></p>
 
 ```
 y = mx + c
