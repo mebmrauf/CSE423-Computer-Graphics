@@ -61,6 +61,7 @@ Given points (0,2) and (70,52), first three steps:
 ### Calculations:
 
 <p>dy = y<sub>2</sub> - y<sub>1</sub>; dx = x<sub>2</sub> - x<sub>1</sub></p>
+<p>(x<sub>1</sub>, y<sub>1</sub>), (x<sub>2</sub>, y<sub>2</sub>) = (0,2), (70,52)</p>
 
 ```
 dy = 52 - 2 = 50
