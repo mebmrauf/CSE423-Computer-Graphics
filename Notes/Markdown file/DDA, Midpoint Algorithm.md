@@ -19,8 +19,8 @@ Then, round off to the nearest pixel.
 
 The decision function for the midpoint determines the next pixel position:
 
-- If \( d(-ve) \), choose the lower pixel (E)
-- If \( d(+ve) \), choose the upper pixel (NE)
+- If `d(-ve)`, choose the lower pixel `(E)`
+- If `d(+ve)`, choose the upper pixel `(NE)`
 
 ### Derivation:
 ```
