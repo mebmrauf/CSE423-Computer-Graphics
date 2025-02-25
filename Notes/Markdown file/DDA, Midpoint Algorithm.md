@@ -19,8 +19,8 @@ Then, round off to the nearest pixel.
 
 The decision function for the midpoint determines the next pixel position:
 
-- If \( d(-ve) \), choose the lower pixel (E, upper side)
-- If \( d(+ve) \), choose the upper pixel (NE, lower side)
+- If \( d(-ve) \), choose the lower pixel (E)
+- If \( d(+ve) \), choose the upper pixel (NE)
 
 ### Derivation:
 ```
@@ -32,7 +32,7 @@ y = (y₂ - y₁) / (x₂ - x₁) * x + c
 ```
 Multiplying by 2dx:
 ```
-2x dy - 2y dx + 2c dx = 0
+2xdy - 2ydx + 2cdx = 0
 ```
 Rewriting in standard form:
 ```
@@ -40,7 +40,7 @@ Ax + By + C = 0
 ```
 Where:
 ```
-A = 2dy, B = -2dx, C = 2c dx
+A = 2dy, B = -2dx, C = 2cdx
 ```
 
 ### Initial Midpoint Calculation:
