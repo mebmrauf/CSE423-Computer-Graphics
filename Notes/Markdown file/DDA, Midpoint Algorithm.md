@@ -1,4 +1,4 @@
-# CSE423: DDA, Midpoint Algorithm
+# DDA, Midpoint Algorithm
 
 ## Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
