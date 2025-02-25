@@ -38,7 +38,7 @@ A = 2dy, B = -2dx, C = 2cdx
 ```
 
 ### Initial Midpoint Calculation:
-- `d = 2dy - dx`
+- Midpoint → `d = 2dy - dx`
 
 ### Next Midpoint Calculation Based on Pixel Choice:
 
