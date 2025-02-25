@@ -4,14 +4,14 @@
 The line equation: `y = mx + c`
 
 If `-1 < m < 1`:
-
+```
 <p>X<sub>k+1</sub> = X<sub>k</sub> + 1
-Yk+1 = Yk + 1</p>
-
+Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
+```
 Else:
 ```
-Yk+1 = Yk + 1
-Xk+1 = Xk + 1\m
+<p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1
+X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p>
 ```
 Then, round off to the nearest pixel.
 
