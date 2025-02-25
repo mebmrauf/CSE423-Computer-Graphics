@@ -59,9 +59,12 @@ Given points (0,2) and (70,52), first three steps:
 | (2,3)  | 2  | 3  | 90  | NE   | 50        | (3,4)       |
 
 ### Calculations:
+
+<p>dy = y<sub>2</sub> - y<sub>1</sub>; dx = x<sub>2</sub> - x<sub>1</sub></p>
+
 ```
-dy = y₂ - y₁ = 52 - 2 = 50
-dx = x₂ - x₁ = 70 - 0 = 70
+dy = 52 - 2 = 50
+dx = 70 - 0 = 70
 ```
 
 #### Pixel (0,2):
