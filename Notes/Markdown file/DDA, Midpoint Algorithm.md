@@ -43,6 +43,7 @@ A = 2dy, B = -2dx, C = 2cdx
 `d = 2dy - dx`
 
 ### Next Midpoint Calculation Based on Pixel Choice:
+
 - NE → `d = d + 2dy - 2dx`
 - E → `d = d + 2dy`
 
