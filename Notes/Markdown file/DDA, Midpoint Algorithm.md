@@ -6,12 +6,12 @@ The line equation: `y = mx + c`
 - If `-1 < m < 1`:
 
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>
-    <p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
+    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>
 
 - else:
 
-  <p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p>
-  <p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p>
+  <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>
+  <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p></b>
 
 - Then, round off to the nearest pixel.
 
