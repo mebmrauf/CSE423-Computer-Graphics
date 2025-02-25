@@ -4,7 +4,7 @@
 - Points ≠ Vectors
 
 ### Magnitude of a Vector
-<p>|a|= √(x<sub>2</sub>+y<sub>2</sub>)</p>
+<p>|a|= √(x<sup>2</sup>+y<sup>2</sup>)</p>
 
 ### Unit Vector
 ```
