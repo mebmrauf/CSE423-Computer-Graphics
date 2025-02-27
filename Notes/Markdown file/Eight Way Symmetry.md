@@ -9,7 +9,7 @@ y = -x    x = 0      y = x
     \      |      /
      \     |  1  /
    3  \    |    /
-       \   |   / 0
+       \   |   /   0
         \  |  /
          \ | /
           \|/
@@ -86,4 +86,71 @@ Selected zone 1
 ```
 Zone 1 --> 0
 x = y, y = x
+```
+
+```
+Zone 2 --> 0
+- (2 --> 1) --> x = -x, y = y
+- (1 --> 0) --> x = y, y = -x
+```
+
+```
+Zone 3 --> 0
+x = -x, y = y
+```
+
+```
+Zone 4 --> 0
+x = -x, y = -y
+```
+
+```
+Zone 5 --> 0
+x = -y, y = -x
+```
+
+```
+Zone 6 --> 0
+x = -y, y = x
+```
+
+```
+Zone 7 --> 0
+x = x, y = -y
+```
+
+### Convert pixels back to original zone
+```
+Zone 0 --> 1
+x = y, y = x
+```
+
+```
+Zone 0 --> 2
+x = -y, y = x
+```
+
+```
+Zone 0 --> 3
+x = -x, y = y
+```
+
+```
+Zone 0 --> 4
+x = -x, y = -y
+```
+
+```
+Zone 0 --> 5
+x = -y, y = -x
+```
+
+```
+Zone 0 --> 6
+x = y, y = -x
+```
+
+```
+Zone 0 --> 7
+x = x, y = -y
 ```
