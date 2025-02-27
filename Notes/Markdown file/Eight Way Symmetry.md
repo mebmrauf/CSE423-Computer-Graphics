@@ -1,5 +1,33 @@
 # Eight Way Symmetry
 
+```
+y = -x    x = 0      y = x
+\          |          /
+ \         |         /
+  \        |        /
+   \   2   |       / 
+    \      |      /
+     \     |  1  /
+   3  \    |    /
+       \   |   / 0
+        \  |  /
+         \ | /
+          \|/
+-----------+-----------
+          /|\
+     4   / | \
+        /  |  \
+       /   |   \ 
+      /    |    \   7
+     /     |     \
+    /   5  |   6  \
+   /       |       \
+  /        |        \
+ /         |         \
+/          |          \
+y = x     x = 0       y = -x
+```
+
 ### Steps
 ```
 - Find the zone
@@ -17,8 +45,8 @@
 
 ### Quadrants
 
-<p>dx = x<sub>2</sub>-x<sub>1</sub></p>
-<p>dy = y<sub>2</sub>-y<sub>1</sub></p>
+- <p>dx = x<sub>2</sub>-x<sub>1</sub></p>
+- <p>dy = y<sub>2</sub>-y<sub>1</sub></p>
 
 ```
 Q1 --> dy > 0, dx > 0
