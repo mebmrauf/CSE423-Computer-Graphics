@@ -1,8 +1,23 @@
 # Eight Way Symmetry
+
+### Steps
+- Find the zone
+```
+- If zone is 0, apply Midpoint Line Algorithm
+```
+```
+- Else, convert it to zone 0
+- Apply Midpoint Line Algorithm
+- Find the pixels in zone 0
+- Convert pixels back to original zone
+- Draw the line
+```
+
+### Quadrants
+
 <p>dx = x<sub>2</sub>-x<sub>1</sub></p>
 <p>dy = y<sub>2</sub>-y<sub>1</sub></p>
 
-### Quadrants
 ```
 Q1 --> dy > 0, dx > 0
 Q2 --> dy > 0, dx < 0
