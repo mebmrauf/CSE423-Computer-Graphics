@@ -72,3 +72,18 @@ Selected quadrant Q1
 Selected zone 1
 
 ```
+
+### Reflection
+
+```
+- (x,y) --> (x = 0) -->(-x,y)
+- (x,y) --> (y = 0) -->(x,-y)
+- (x,y) --> (y = x) -->(y,x)
+- (x,y) -->(y = -x)-->(-y,-x)
+```
+
+### Convert to Zone 0
+```
+Zone 1 --> 0
+x = y, y = x
+```
