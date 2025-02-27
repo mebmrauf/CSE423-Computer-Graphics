@@ -1,7 +1,9 @@
 # Eight Way Symmetry
 
 ### Steps
+```
 - Find the zone
+```
 ```
 - If zone is 0, apply Midpoint Line Algorithm
 ```
