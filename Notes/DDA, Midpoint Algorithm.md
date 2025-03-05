@@ -21,7 +21,7 @@ The line equation: `y = mx + c`
 
 m = 0.6 ; -1 < m < 1
 
-| x | y | y(round)| Pixel |
+| x | y | y(round)| pixel |
 |----|----|---------|------|
 | 2 | 2.0 | 2 | (2,2) |
 | 3 | 2.6 | 3 | (3,3) |
