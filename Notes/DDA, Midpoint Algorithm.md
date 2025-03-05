@@ -17,7 +17,7 @@ The line equation: `y = mx + c`
 
 ### Example
 
-(2,2), (7,5)
+Points : (2,2) & (7,5)
 
 m = 0.6 ; -1 < m < 1
 
