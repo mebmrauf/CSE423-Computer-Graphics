@@ -66,7 +66,7 @@ Example:
 
 ```
 The size of an image file depends on its resolution, bit depth, and compression.
-Image Size (bytes)/Memory Required = Width ✕ Height ✕ Bytes (Bit Depth ÷ 8)
+Image Size (bytes)/Memory Required = Total Pixels per Frame ✕ Bytes (Bit Depth ÷ 8) = Width ✕ Height ✕ Bytes (Bit Depth ÷ 8)
 
 Example:
 For a 1920 x 1080 image with 24-bit (3 bytes per pixel) color depth:
