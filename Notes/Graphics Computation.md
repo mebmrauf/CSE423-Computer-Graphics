@@ -28,7 +28,7 @@ Aspect Ratio = 1920 / 1080 = 16 : 9
 
 ```
 Frame rate (Frames Per Second) determines how many images (frames) are displayed per second:
-Frame Time (ms) = (1 / FPS)  ✕ 1000 
+Frame Time (ms) = (1 / FPS) ✕ 1000 
 
 Example:
 For 60 FPS:
@@ -40,10 +40,10 @@ This means each frame must be rendered in 16.67 milliseconds to maintain 60 FPS.
 
 ```
 The number of pixels processed per second can be calculated as:
-Pixels per Second = Total Pixels per Frame  ✕ FPS
+Pixels per Second = Total Pixels per Frame ✕ FPS = Width ✕ Height ✕ FPS
 
 If a GPU can process N pixels per millisecond, the total pixels it can render per frame is:
-Pixels per Second = N  ✕ Frame Time 
+Pixels per Second = N ✕ Frame Time 
 
 Example:
 For a 1920 × 1080 image at 60 FPS:
