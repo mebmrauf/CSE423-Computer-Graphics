@@ -15,6 +15,19 @@ The line equation: `y = mx + c`
 
 - Then, round off to the nearest pixel.
 
+### Example
+(2,2), (7,5)
+m = 0.6 ; -1 < m < 1
+
+| x | y | y(round)| Pixel |
+|----|----|---------|------|
+| 2 | 2 | 2 | (2,2) |
+| 3 | 2.6 | 3 | (3,3) |
+| 4 | 3.2 | 3 | (4,3) |
+| 5 | 3.8 | 4 | (5,4) |
+| 6 | 4.4 | 4 | (6,4) |
+| 7 | 5 | 5 | (7,5) |
+
 ### Drawbacks
 
 Two big issues:
