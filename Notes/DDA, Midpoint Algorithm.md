@@ -106,8 +106,11 @@ Next Pixel: (3,4)
 ### Drawbacks
 
 Range of m, `0 < m < 1`
+
 That means `dx` and `dy` both are positive; `dx, dy > 0`
 
 Example:
-If the points are (2,9) and (8,4), midpoint could not be able to handle it. 
+
+If the points are (2,9) and (8,4), midpoint could not be able to handle it.
+
 m = (4-9)/(8-2) = -5/6 < 0
