@@ -1,5 +1,17 @@
 # Vector Display vs. Raster Display
 
+## Vector Display Architecture
+
+     --------------------------
+|--> |     Host Computer      |
+|    --------------------------
+|    --------------------------
+|    |     1. MOVE 10, 10     |
+|    |     2. LINE 10, 100    |
+|--> |     3. LINE 100, 10    |
+     |     4. LINE 10, 10     |
+     |     5. GOTO 1          |
+     --------------------------
 ## Feature Comparison
 
 | Feature         | Vector Display                                      | Raster Display                                     |
