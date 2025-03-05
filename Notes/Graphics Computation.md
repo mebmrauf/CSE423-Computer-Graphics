@@ -86,7 +86,7 @@ PPI = Diagonal Resolution (pixels) / Diagonal Screen Size (inches)
 
 Example:
 For a 1920 × 1080 display with a 15.6-inch diagonal screen:
-PPI = 2202.91 / 15.06v PPI = 141 PPI
+PPI = 2202.91 / 15.06 PPI = 141 PPI
 ```
 
 - **Scaling Factor**
