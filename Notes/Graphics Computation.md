@@ -79,14 +79,15 @@ If compressed (e.g., JPEG), the file size is smaller.
 - **Pixel Density(DPI/PPI)**
 
 ```
-Pixel density measures how many pixels are packed into a given physical area, commonly expressed as DPI (Dots Per Inch) or PPI (Pixels Per Inch).
+Pixel density measures how many pixels are packed into a given physical area,
+commonly expressed as DPI (Dots Per Inch) or PPI (Pixels Per Inch).
 
-PPI = Diagonal Resolution (pixels) / Diagonal Screen Size (inches) 
+PPI/DPI = Diagonal Resolution (pixels) / Diagonal Screen Size (inches) 
 = √(Width^2 + Height^2) / Diagonal Screen Size (inches)
 
 Example:
 For a 1920 × 1080 display with a 15.6-inch diagonal screen:
-PPI = 2202.91 / 15.06 PPI = 141 PPI
+PPI/DPI = 2202.91 / 15.06 PPI = 141 PPI
 ```
 
 - **Scaling Factor**
