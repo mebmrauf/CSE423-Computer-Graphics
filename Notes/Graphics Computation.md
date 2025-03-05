@@ -101,7 +101,7 @@ Effective Resolution = Native Resolution / Scaling Factor
 
 ## Antialiasing
 
-### I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight
+#### I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight
 
 ```
 dA = area overlap for pixel at (x,y)
