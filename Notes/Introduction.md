@@ -2,6 +2,7 @@
 
 ## Vector Display Architecture
 
+```
      --------------------------
 |--> |     Host Computer      |
 |    --------------------------
@@ -12,6 +13,8 @@
      |     4. LINE 10, 10     |
      |     5. GOTO 1          |
      --------------------------
+```
+
 ## Feature Comparison
 
 | Feature         | Vector Display                                      | Raster Display                                     |
