@@ -15,6 +15,13 @@ The line equation: `y = mx + c`
 
 - Then, round off to the nearest pixel.
 
+### Drawbacks
+
+Two big issues:
+- Accumulation of round-off errors can make the pixelated line drift away from what was intended (Low Accuracy)
+- The rounding operations and floating point arithmetic involved are time consuming (Time Consuming)
+
+
 ## Midpoint Algorithm
 
 The decision function for the midpoint determines the next pixel position:
@@ -95,3 +102,12 @@ d = d + 2dy - 2dx = 90 + (2 * 50) - (2 * 70) = 50
 
 Next Pixel: (3,4)
 ```
+
+### Drawbacks
+
+Range of m, `0 < m < 1`
+That means `dx` and `dy` both are positive; `dx, dy > 0`
+
+Example:
+If the points are (2,9) and (8,4), midpoint could not be able to handle it. 
+m = (4-9)/(8-2) = -5/6 < 0
