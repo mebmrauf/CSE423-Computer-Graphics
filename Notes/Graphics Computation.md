@@ -28,7 +28,8 @@ Aspect Ratio = 1920 / 1080 = 16 : 9
 
 ```
 Frame rate (Frames Per Second) determines how many images (frames) are displayed per second:
-Frame Time (ms) = (1 / FPS) ✕ 1000 
+Frame Time (ms) = (1 / FPS) ✕ 1000
+Frame Rate(FPS) = (1/Frame Time) ✕ 1000
 
 Example:
 For 60 FPS:
