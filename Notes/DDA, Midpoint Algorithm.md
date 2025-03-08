@@ -3,7 +3,7 @@
 ## Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
 
-Follow this for incremental line,
+### For incremental line,
 
 - If `-1 < m < 1`:
 
@@ -17,7 +17,7 @@ Follow this for incremental line,
 
 - Then, round off to the nearest pixel.
 
-### Example 01
+#### Example 01
 
 Points : (2,2) & (7,5)
 
@@ -32,7 +32,7 @@ m = 0.6 ; -1 < m < 1
 | 6 | 4.4 | 4 | (6,4) |
 | 7 | 5.0 | 5 | (7,5) |
 
-### Example 02
+#### Example 02
 
 Points : (2,2) & (5,7)
 
@@ -47,7 +47,7 @@ m = 1.7 ; m > 1
 | 6 | 4.32 | 4 | (4,6) |
 | 7 | 4.90 | 5 | (5,7) |
 
-For decremental line,
+### For decremental line,
 
 - If x and y both are decremental
 
