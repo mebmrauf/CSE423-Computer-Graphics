@@ -50,6 +50,11 @@ m = 1.7 ; m > 1
 ### For decremental line,
 
 - When `x and y both are decremental`
+
+  | dx > dy | dy < dx |
+  |------------------|------------------|
+  |<b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b> ; <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>|<b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b> ; <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>|
+   
     - if `dx > dy`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>
@@ -57,7 +62,12 @@ m = 1.7 ; m > 1
     - else if `dy > dx`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>
-
+    ```
+    Points: (2,3) & (-1,-4)
+    dy = - 4 - 3 = - 7
+    dx = - 1 - 2 = -3
+    dx > dy
+    ```
 - When `one is incremental and another one is decremental`
     - if `dy > dx`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p></b>
