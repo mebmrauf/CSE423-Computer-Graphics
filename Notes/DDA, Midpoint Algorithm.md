@@ -49,12 +49,12 @@ m = 1.7 ; m > 1
 
 ### For decremental line,
 
-- When x and y both are decremental
-    - If `dx > dy`, subtract `1 from x` and subtract `m from y` in each step.
+- When `x and y both` are decremental
+    - If `dx > dy`, `subtract 1 from x` and `subtract m from y` in each step.
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>
     
-    - Else if, subtract `1 from y` and subtract `m from x` in each step.
+    - Else if, `subtract 1 from y` and `subtract m from x` in each step.
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>
 
@@ -64,6 +64,14 @@ m = 1.7 ; m > 1
     dx = - 1 - 2 = -3
     dx > dy
     ```
+- When one is incremental and another one is decremental
+    - if `dy > dx`, add 1 with y and add 1/m with x
+    <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p></b>
+    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>
+    
+    - else if `dx > dy`, add 1 with x and add 1/m with y
+    <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>
+    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1/m</p></b>
 
 ### Drawbacks
 
