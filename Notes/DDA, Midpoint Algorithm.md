@@ -3,6 +3,8 @@
 ## Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
 
+Follow this for incremental line,
+
 - If `-1 < m < 1`:
 
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>
@@ -44,6 +46,24 @@ m = 1.7 ; m > 1
 | 5 | 3.74 | 4 | (4,5) |
 | 6 | 4.32 | 4 | (4,6) |
 | 7 | 4.90 | 5 | (5,7) |
+
+For decremental line,
+
+- If x and y both are decremental
+
+```
+Points: (2,3) & (-1,-4)
+dy = - 4 - 3 = - 7
+dx = - 1 - 2 = -3
+```
+If `dx > dy`, subtract `1 from x` and subtract `m from y` in each step.
+
+<b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>
+<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>
+
+Else if, subtract `1 from y` and subtract `m from x` in each step.
+<b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b>
+<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>
 
 ### Drawbacks
 
