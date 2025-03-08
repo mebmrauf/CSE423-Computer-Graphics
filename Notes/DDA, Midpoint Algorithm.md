@@ -51,7 +51,6 @@ m = 1.7 ; m > 1
 
 - When x and y both are decremental
     - If `dx > dy`, subtract `1 from x` and subtract `m from y` in each step.
-    
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>
     
@@ -63,6 +62,7 @@ m = 1.7 ; m > 1
     Points: (2,3) & (-1,-4)
     dy = - 4 - 3 = - 7
     dx = - 1 - 2 = -3
+    dx > dy
     ```
 
 ### Drawbacks
