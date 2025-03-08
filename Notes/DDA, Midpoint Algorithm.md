@@ -50,26 +50,20 @@ m = 1.7 ; m > 1
 ### For decremental line,
 
 - When `x and y both are decremental`
-    - if `dx > dy`, `subtract 1 from x` and `subtract m from y` in each step.
+    - if `dx > dy`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>
     
-    - else if `dy > dx`, `subtract 1 from y` and `subtract m from x` in each step.
+    - else if `dy > dx`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>
 
-    ```
-    Points: (2,3) & (-1,-4)
-    dy = - 4 - 3 = - 7
-    dx = - 1 - 2 = -3
-    dx > dy
-    ```
 - When `one is incremental and another one is decremental`
-    - if `dy > dx`, add 1 with y and add 1/m with x
+    - if `dy > dx`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>
     
-    - else if `dx > dy`, add 1 with x and add 1/m with y
+    - else if `dx > dy`,
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>
     <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1/m</p></b>
 
