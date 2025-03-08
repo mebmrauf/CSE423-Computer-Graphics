@@ -53,15 +53,9 @@ m = 1.7 ; m > 1
 
   | dx > dy | dy < dx |
   |------------------|------------------|
-  |<b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b> ; <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>|<b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b> ; <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>|
+  |<b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>|<b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b>|
+  |<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>|<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>|
    
-    - if `dx > dy`,
-    <b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>
-    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>
-    
-    - else if `dy > dx`,
-    <b><p>X<sub>k+1</sub> = X<sub>k</sub> - m</p></b>
-    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>
     ```
     Points: (2,3) & (-1,-4)
     dy = - 4 - 3 = - 7
