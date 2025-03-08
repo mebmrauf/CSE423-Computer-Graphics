@@ -8,7 +8,7 @@ The line equation: `y = mx + c`
 - If `-1 < m < 1`:
 
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>
-    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>
+    <b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + m</p></b>
 
 - else:
 
