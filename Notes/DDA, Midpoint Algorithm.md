@@ -5,10 +5,6 @@
 ## Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
 
-Here we will always compare the polarized values of `dx and dy`
-
-### For incremental line,
-
 - If `-1 < m < 1`:
 
     <b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>
@@ -50,26 +46,6 @@ m = 1.7 ; m > 1
 | 5 | 3.74 | 4 | (4,5) |
 | 6 | 4.32 | 4 | (4,6) |
 | 7 | 4.90 | 5 | (5,7) |
-
-### For decremental line,
-
-- When `x and y both are decremental`
-
-  | dx > dy | dy > dx |
-  |------------------|------------------|
-  |<b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1</p></b>|<b><p>X<sub>k+1</sub> = X<sub>k</sub> - 1/m</p></b>|
-  |<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - m</p></b>|<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> - 1</p></b>|
-
-    For example, points : (2,3) & (-1,-4)
-  
-- When `one is incremental and another one is decremental`
-
-  | dx > dy | dy > dx |
-  |------------------|------------------|
-  |<b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>|<b><p>X<sub>k+1</sub> = X<sub>k</sub> + m</p></b>|
-  |<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1/m</p></b>|<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>|
-
-    For example, points : (5,3) & (-3,4)
 
 ### Drawbacks
 
