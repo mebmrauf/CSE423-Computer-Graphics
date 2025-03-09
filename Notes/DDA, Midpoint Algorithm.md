@@ -33,7 +33,7 @@ The line equation: `y = mx + c`
 
 Points : (2,2) & (7,5)
 
-m = 0.6 ; -1 < m < 1 ; `x` is increasing
+`m = 0.6 ; -1 < m < 1 ; x is increasing`
 
 | x | y | y(round)| pixel |
 |----|----|---------|------|
@@ -48,7 +48,7 @@ m = 0.6 ; -1 < m < 1 ; `x` is increasing
 
 Points : (2,2) & (5,7)
 
-m = 1.7 ; m > 1 ; `y` is increasing
+`m = 1.7 ; m > 1 ; y is increasing`
 
 | y | x | x(round)| pixel |
 |----|----|---------|------|
@@ -63,7 +63,7 @@ m = 1.7 ; m > 1 ; `y` is increasing
 
 Points : (2,3) & (-1, -4)
 
-m = 2.3 ; m > 1 ; `y` is decreasing
+`m = 2.3 ; m > 1 ; y is decreasing`
 
 | y | x | x(round)| pixel |
 |----|----|---------|------|
@@ -92,7 +92,7 @@ current x = 2 - 0.43 = 2.57
 
 Points : (2,3) & (-1, 4)
 
-m = 2.3 ; -1 < m < 1 ; `x` is decreasing
+`m = 2.3 ; -1 < m < 1 ; x is decreasing`
 
 | x | y | y(round)| pixel |
 |----|----|---------|------|
@@ -117,7 +117,7 @@ current y = 3 - (-0.33) = 3 + 0.33 = 3.33
 
 Points : (2,3) & (4, -4)
 
-m = -3.5 ; m < -1 ; `y` is decreasing
+`m = -3.5 ; m < -1 ; y is decreasing`
 
 | y | x | x(round)| pixel |
 |----|----|---------|------|
