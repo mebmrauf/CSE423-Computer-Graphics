@@ -1,4 +1,4 @@
-# DDA, Midpoint Algorithm
+# DDA
 
 ## Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
