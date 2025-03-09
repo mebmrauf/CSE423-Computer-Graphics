@@ -62,7 +62,7 @@ m = 1.7 ; m > 1
   
 - When `one is incremental and another one is decremental`
 
-  | dx > dy | dy < dx |
+  | dx > dy | dy > dx |
   |------------------|------------------|
   |<b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1</p></b>|<b><p>X<sub>k+1</sub> = X<sub>k</sub> + 1/m</p></b>|
   |<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1/m</p></b>|<b><p>Y<sub>k+1</sub> = Y<sub>k</sub> + 1</p></b>|
