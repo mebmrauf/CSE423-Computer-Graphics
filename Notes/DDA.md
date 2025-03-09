@@ -1,6 +1,4 @@
-# DDA
-
-## Digital Differential Algorithm (DDA)
+# Digital Differential Algorithm (DDA)
 The line equation: `y = mx + c`
 
 - if `-1 < m < 1`:
