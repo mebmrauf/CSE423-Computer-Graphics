@@ -1,5 +1,3 @@
-# Some issues are there, I'm fixing them...
-
 # DDA, Midpoint Algorithm
 
 ## Digital Differential Algorithm (DDA)
