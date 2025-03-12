@@ -227,3 +227,15 @@ oc1 = oc2 = 0000
 The line is completely inside the window.
 ```
 
+## Pros and Cons
+
+### Pros
+Works well for two cases
+- Very large clip region
+- Very small clip region
+Because of many trivial accept and many trivial reject
+
+### Cons
+- Only rectangular clipping region
+- Unnecessary clipping is done
+- Different clipping order  may take less iterations  to finish 
