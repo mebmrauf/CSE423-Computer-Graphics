@@ -6,7 +6,4 @@ A point (x,y) is not clipped if:
 use 4 bit outcode
 <p>a<sub>3</sub>a<sub>2</sub>a<sub>1</sub>a<sub>0</sub> = ABRL</p>
 where,
-<p>a<sub>3</sub> = Above</p>
-<p>a<sub>2</sub> = Below</p>
-<p>a<sub>1</sub> = Right</p>
-<p>a<sub>0</sub> = Left</p>
+<p>a<sub>3</sub> = Above; a<sub>2</sub> = Below; a<sub>1</sub> = Right; a<sub>0</sub> = Left</p>
