@@ -119,29 +119,36 @@ y = y_1 + m (x_min - x_1)
 cohen-Sutherland(x1, y1, x2, y2):
 oc1 = calculate_outcode(x1, y1), 
 oc2 = calculate_outcode(x2, y2);
+
 while(true) {
+
 if (oc1 == oc2 == 0000) {
-	//declare completely inside
-	output (x1, y1), (x2, y2) as clipped line
+	//line is completely inside, no need to clip
+	output (x1, y1), (x2, y2)
 	break
 }
-else if ((oc1 AND oc2)!=0000) { // condition to check matching bit
-	//declare completely outside and clip
+
+else if (oc1 != 0000 AND oc2 != 0000) {
+	//line is completely outside and clipped
 	break
 }
+
 else{
+
 	if(oc1 != 0000){
-		(x1, y1) = find intersection point of line 
-		             and the boundary corresponding
-		              to non-zero bit of oc1
+		(x1, y1) = find intersection point of line
+                           and the boundary corresponding
+			   to non-zero bit of oc1
 		oc1 = calculate_outcode(x1, y1)
 	}
+
 	else{
 		(x2, y2) = find intersection point of line
-                                                              and the boundary corresponding 
-                                                              to non-zero bit of oc2
+			   and the boundary corresponding
+			   to non-zero bit of oc2
 		oc2 = calculate_outcode(x2, y2)
 	}
+
 	continue
 }
 ```
