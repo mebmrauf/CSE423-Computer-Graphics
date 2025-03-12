@@ -116,7 +116,7 @@ y = y_1 + m (x_min - x_1)
 
 ## Algorithm
 ```
-cohen-Sutherland(x1, y1, x2, y2):
+cohenSutherland(x1, y1, x2, y2):
 oc1 = calculate_outcode(x1, y1), 
 oc2 = calculate_outcode(x2, y2);
 
