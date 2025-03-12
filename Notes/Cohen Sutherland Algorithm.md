@@ -233,6 +233,7 @@ The line is completely inside the window.
 Works well for two cases
 - Very large clip region
 - Very small clip region
+
 Because of many trivial accept and many trivial reject
 
 ### Cons
