@@ -86,7 +86,7 @@ If outcode1 = outcode2 = 0000; lines are completely inside
 ```
 #### Rejection
 ```
-If outcode1 != 0 AND outcode2 != 0; lines are completely outside
+If (outcode1 AND outcode2) != 0000; lines are completely outside
 ```
 
 ### Boundary Intersection Formulas
@@ -128,7 +128,7 @@ if (oc1 == oc2 == 0000) {
 	break
 }
 
-else if (oc1 != 0000 AND oc2 != 0000) {
+else if ((oc1 AND oc2) != 0000) {
 	//line is completely outside and clipped
 	break
 }
