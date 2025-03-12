@@ -3,7 +3,7 @@ A point (x,y) is not clipped if:
 <p>x<sub>min</sub>≤ x ≤ x<sub>max</sub> AND y<sub>min</sub>≤ y ≤ y<sub>max</sub></p>
 
 ## Line Clipping
-<p>use 4 bit outcode - a<sub>3</sub>a<sub>2</sub>a<sub>1</sub>a<sub>0</sub></p>
+<p>use 4 bit outcode --> a<sub>3</sub>a<sub>2</sub>a<sub>1</sub>a<sub>0</sub></p>
 where,
 <p>a<sub>3</sub> = Above; a<sub>2</sub> = Below; a<sub>1</sub> = Right; a<sub>0</sub> = Left | ABRL</p>
 
