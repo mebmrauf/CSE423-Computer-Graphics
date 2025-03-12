@@ -173,5 +173,57 @@ x_max = 250 ; y_max = 200
 
 (x_1, y_1) = (-100, -220) to (x_2, y_2) = (300, -210)
 
-outcode1 calculation:
+outcode1/oc1 calculation:
+x_1 > x_min ; so, L = 0
+x_1 < x_max ; so, R = 0
+y_1 < y_min ; so, B = 1
+y_1 < y_max ; so, A = 0
+
+oc1 = 0100
+
+outcode2/oc2 calculation:
+x_2 > x_min ; so, L = 0
+x_2 > x_max ; so, R = 1
+y_2 < y_min ; so, B = 1
+y_2 < y_max ; so, A = 0
+
+oc2 = 0110
+
+oc1 AND oc2
+0100
+0100
+----
+0100
+
+(0c1 AND oc2) != 0000
+Since the line is completely out of the window, line clipped.
 ```
+
+### a(ii)
+```
+x_min = -250 ; y_min = -200
+x_max = 250 ; y_max = 200
+
+(x_1, y_1) = (-250, 200) to (x_2, y_2) = (250, -200)
+
+outcode1/oc1 calculation:
+x_1 = x_min ; so, L = 0
+x_1 < x_max ; so, R = 0
+y_1 > y_min ; so, B = 0
+y_1 = y_max ; so, A = 0
+
+oc1 = 0000
+
+outcode2/oc2 calculation:
+x_2 > x_min ; so, L = 0
+x_2 = x_max ; so, R = 0
+y_2 = y_min ; so, B = 0
+y_2 < y_max ; so, A = 0
+
+oc2 = 0000
+
+oc1 = oc2 = 0000
+
+The line is completely inside the window.
+```
+
