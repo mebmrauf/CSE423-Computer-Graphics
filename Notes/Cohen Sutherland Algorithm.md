@@ -152,3 +152,26 @@ else{
 	continue
 }
 ```
+
+## Examples
+````
+Determine whether the following line are accepted/rejected/partial using Cohen Sutherland line clipping algorithm. 
+a) Given (-250,-200) to (250,200) be the clip region.
+(i) (-100, -220) to (300, -210).
+(ii) (-250, 200) to (250, -200).
+b) Given (0,0) to (300,200) be the clip region.
+(i) (50, -125) to (-100, 225).
+(ii) (-250, 200) to (250, -200).
+
+If they are partially accepted/rejected find the line segment within the clipping window. 
+````
+
+### a(i)
+```
+x_min = -250 ; y_min = -200
+x_max = 250 ; y_max = 200
+
+(x_1, y_1) = (-100, -220) to (x_2, y_2) = (300, -210)
+
+outcode1 calculation:
+```
