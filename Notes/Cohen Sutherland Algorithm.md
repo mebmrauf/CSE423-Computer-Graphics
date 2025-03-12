@@ -91,13 +91,13 @@ If outcode1 != 0 AND outcode2 != 0; lines are completely outside
 
 ### Boundary Intersection Formulas
 
-#### Above/Top boundary intersection:
+#### ABOVE/TOP boundary intersection:
 ```
 y = y_max
 x = x_1 + 1/m (y_max - y_1)
 ```
 
-#### Bottom/Below boundary intersection:
+#### BOTTOM/BELOW boundary intersection:
 ```
 y = y_min
 x = x_1 + 1/m (y_min - y_1)
