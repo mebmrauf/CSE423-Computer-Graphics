@@ -66,6 +66,9 @@ N_i.D > 0 (-ve) => PL
 
 ## Boundary(t)
 <p>t<sub>left</sub> = -(x<sub>0</sub> - x<sub>min</sub>)/(x<sub>1</sub> - x<sub>0</sub>)</p>
+<p>t<sub>right</sub> = -(x<sub>0</sub> - x<sub>max</sub>)/(x<sub>1</sub> - x<sub>0</sub>)</p>
+<p>y<sub>top</sub> = -(y<sub>0</sub> - y<sub>max</sub>)/(y<sub>1</sub> - y<sub>0</sub>)</p>
+<p>y<sub>bottom</sub> = -(y<sub>0</sub> - y<sub>min</sub>)/(y<sub>1</sub> - y<sub>0</sub>)</p>
 
 ## Cyrus-Beck algo
 - Calculate t values of intersection points with each 4 boundaries
