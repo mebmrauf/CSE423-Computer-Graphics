@@ -10,7 +10,8 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 
 ## Suggested Books
 
-**Drive Link** https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=drive_link
+**Drive Link**
+https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=drive_link
 
 ## Playlist
 
