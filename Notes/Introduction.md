@@ -74,7 +74,7 @@
 - **Bit Depth (Bit Planes)** determines color accuracy.
 
 # Rendering Pipeline
-The Rendering Pipeline is the process of converting 3D models into 2D images for display. It consists of several key stages:
+The **Rendering Pipeline is the process of converting 3D models into 2D images** for display. It consists of several key stages:
 
 - Vertex Processing & Clipping
      - Transforms 3D object coordinates into screen coordinates using model and view transformations.
