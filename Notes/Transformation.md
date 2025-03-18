@@ -6,7 +6,7 @@ Applications: Animation, Deformation, Viewing, Projection, Real-time shadows.
 
 **Examples:** Identity, Translation, Rotation, Isotropic(uniform) scaling, Scaling, Reflection, Shear.
 
-### Simple Tranformation
+### Simple Transformations
 ```
 Identity, Translation, Rotation, Isotropic scaling
 ```
