@@ -163,7 +163,7 @@ Aliasing occurs when a continuous object, like a diagonal line or curve, is repr
 
 ### Intensity of pixel centered at (x,y)
 
-#### I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight
+<b><p>I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight</p></b>
 
 ```
 dA = area overlap for pixel at (x,y)
