@@ -156,16 +156,15 @@ Aliasing occurs when a continuous object, like a diagonal line or curve, is repr
      - Instead of treating each pixel as a single point, it is considered a small area.
      - The color of a pixel is determined based on how much of it is covered by the object.
      - **Unweighted Area Sampling** is a technique where pixels are shaded based on the area covered by a thickened line, rather than by distance from the pixel center. Equal areas contribute equal intensity, regardless of distance between the pixel’s center and the area; only the total amount of overlapped area matters.
+       #### Intensity of pixel centered at (x,y)
+          
+          <b><p>I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight</p></b>
+          
+          ```
+          dA = area overlap for pixel at (x,y)
+          Weight = 1 for unweighted area sampling
+          ```
      - **Weighted Area Sampling** assigns different influence (weights) to areas within a pixel based on their distance from the object's edge, resulting in smoother edges compared to unweighted sampling where all areas have equal influence. A smaller area closer to the pixel center has a greater influence than does one at greater distance.
 - Example
      - **Without Antialiasing** A diagonal line appears jagged, with visible staircasing.
      - **With Antialiasing** The edges of the line are blended with nearby pixels, creating.
-
-### Intensity of pixel centered at (x,y)
-
-<b><p>I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight</p></b>
-
-```
-dA = area overlap for pixel at (x,y)
-Weight = 1 for unweighted area sampling
-```
