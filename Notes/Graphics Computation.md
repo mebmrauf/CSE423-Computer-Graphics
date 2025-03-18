@@ -101,12 +101,3 @@ Screen Scaling
 When scaling is applied, the effective resolution (how content is displayed) changes.
 Effective Resolution = Native Resolution / Scaling Factor
 ```
-
-## Antialiasing
-
-#### I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight
-
-```
-dA = area overlap for pixel at (x,y)
-Weight = 1 for unweighted area sampling
-```

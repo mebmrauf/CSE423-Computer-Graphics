@@ -1,28 +1,29 @@
-# Vectors
+# Vectors Basics and Scan Conversion
+## Vectors
 - Points specify location in space (or in the plane). 
 - Vectors have magnitude and direction (like velocity). The difference between two points is a vector. For example, (p,q) - p and q are two points; vector, v = q - p.
 - Points ≠ Vectors
 
-### Magnitude of a Vector
+#### Magnitude of a Vector
 <p>|a|= √(x<sup>2</sup>+y<sup>2</sup>)</p>
 
-### Unit Vector
+#### Unit Vector
 ```
 â = a / |a|
 ```
 
-### Vector Addition
+#### Vector Addition
 ```
 (a + b) + c = a + (b + c)
 ```
 
-### Vector Subtraction
+#### Vector Subtraction
 ```
 b – a = b + (-a)
 a - b ≠ b - a
 ```
 
-## Dot Product / Scalar Multiplication 
+### Dot Product / Scalar Multiplication 
 ```
 a.b = |a||b|Cosθ
 
@@ -41,7 +42,7 @@ Symmetry: a·b = b·a
 Linearity: (a+c)·b = a·b + c·b
 Homogeneity: (sa)·b = s(a·b)
 ```
-## Cross Product / Vector Multiplication
+### Cross Product / Vector Multiplication
 ```
 bxc = |b||c|Sinθâ
 ```
@@ -64,7 +65,7 @@ Geometric Interpretation of Cross Product
 - |aXb| = area of the parallelogram defined by a and b
 ```
 
-# Scan Conversion
+## Scan Conversion
 
 <p>dy = y<sub>2</sub> - y<sub>1</sub>; dx = x<sub>2</sub> - x<sub>1</sub></p>
 
@@ -85,7 +86,7 @@ y(5) = 5*3/5 + 4/5 = 19/5 ≈ 4 ; pixel (5,4)
 y(6) = 6*3/5 + 4/5 = 22/5 ≈ 4 ; pixel (6,4)
 ```
 
-## Drawbacks
+### Drawbacks
 
 Too slow because,
 - The equation y = mx + b requires the multiplication of m by x

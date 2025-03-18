@@ -52,7 +52,7 @@
                                     ------------------------
 ```
 
-## Feature Comparison
+### Feature Comparison
 
 | Feature         | Vector Display                                      | Raster Display                                     |
 |---------------|------------------------------------------------|------------------------------------------------|
@@ -62,7 +62,7 @@
 | **Cons**       | Limited to line drawings, not ideal for complex images. | Can have pixelation (jagged edges), resolution dependent. |
 | **Key Differences** | Shape-based, resolution-independent, best for scalable designs like fonts and logos. | Pixel-based, fixed resolution, more common in displays, better for detailed and realistic images. |
 
-## Key Terms in Raster Displays
+### Key Terms in Raster Displays
 
 - **Raster:** A rectangular grid of points or dots.
 - **Pixel (Pel):** The smallest part of a digital image, each representing a single color.
@@ -73,7 +73,7 @@
 - **Resolution** defines the number of pixels in the display (e.g., 1024×1024 pixels).
 - **Bit Depth (Bit Planes)** determines color accuracy.
 
-# Rendering Pipeline
+## Rendering Pipeline
 The **Rendering Pipeline is the process of converting 3D models into 2D images** for display. It consists of several key stages:
 
 - Vertex Processing & Clipping
@@ -86,7 +86,7 @@ The **Rendering Pipeline is the process of converting 3D models into 2D images**
 - Image Composition & Output Merging
      - Combines multiple layers and objects into a final rendered image, ready for display.
 
-## Steps
+### Steps
 ```
         Raw Vertices
         & Primitives
@@ -130,23 +130,23 @@ The **Rendering Pipeline is the process of converting 3D models into 2D images**
 ------------------------------------
 ```
 
-# Modeling vs. Rendering
+## Modeling vs. Rendering
 
-## Process Comparison
+### Process Comparison
 
 | Process    | Description                                           | Example                                      |
 |------------|------------------------------------------------------|----------------------------------------------|
 | **Modeling**  | Creating objects, applying materials, positioning them. | Designing a 3D house in Blender.            |
 | **Rendering** | Generating the final 2D image from the 3D scene.   | Taking a picture of the 3D house.           |
 
-# Antialiasing
+## Antialiasing
 
 Antialiasing is a technique used to reduce jagged edges (aliasing) in digital graphics, making images appear smoother and more visually appealing.
 
-## What is Aliasing?
+### What is Aliasing?
 Aliasing occurs when a continuous object, like a diagonal line or curve, is represented using discrete pixels. This results in a **staircasing effect (jagged edges)** due to the "all-or-nothing" approach of pixel coloring, each pixel is either filled completely or left blank.
 
-## Antialiasing Techniques
+### Antialiasing Techniques
 
 - Increasing Resolution
      - More pixels per unit area reduce jagged lines.
@@ -155,8 +155,16 @@ Aliasing occurs when a continuous object, like a diagonal line or curve, is repr
 - Area Sampling (Supersampling)
      - Instead of treating each pixel as a single point, it is considered a small area.
      - The color of a pixel is determined based on how much of it is covered by the object.
-     - **Unweighted Area Sampling** a pixel’s intensity is proportional to the fraction of its area covered by the object.
-     - **Weighted Area Sampling** uses a weighting function to give more importance to the center of the pixel for smoother transitions.
+     - **Unweighted Area Sampling** is a technique where pixels are shaded based on the area covered by a thickened line, rather than by distance from the pixel center. Equal areas contribute equal intensity, regardless of distance between the pixel’s center and the area; only the total amount of overlapped area matters.
+       #### Intensity of pixel centered at (x,y)
+          
+          <b><p>I<sub>x,y</sub> = I<sub>max</sub>.dA.Weight</p></b>
+          
+          ```
+          dA = area overlap for pixel at (x,y)
+          Weight = 1 for unweighted area sampling
+          ```
+     - **Weighted Area Sampling** assigns different influence (weights) to areas within a pixel based on their distance from the object's edge, resulting in smoother edges compared to unweighted sampling where all areas have equal influence. A smaller area closer to the pixel center has a greater influence than does one at greater distance.
 - Example
      - **Without Antialiasing** A diagonal line appears jagged, with visible staircasing.
      - **With Antialiasing** The edges of the line are blended with nearby pixels, creating.
