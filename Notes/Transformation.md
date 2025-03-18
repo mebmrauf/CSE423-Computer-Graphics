@@ -1,8 +1,8 @@
 # Transformation
 
-Transformation is an operation that changes one configuration into another.
+**Transformation** is an operation that changes one configuration into another.
 
-Applications: Animation, Deformation, Viewing, Projection, Real-time shadows.
+**Applications:** Animation, Deformation, Viewing, Projection, Real-time shadows.
 
 **Examples:** Identity, Translation, Rotation, Isotropic(uniform) scaling, Scaling, Reflection, Shear.
 
