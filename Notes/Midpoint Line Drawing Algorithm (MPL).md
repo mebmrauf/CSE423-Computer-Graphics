@@ -1,4 +1,4 @@
-# Mid Point Line (MPL) Algorithm
+# Midpoint Line Drawing Algorithm (MPL)
 
 The decision function for the midpoint determines the next pixel position:
 
