@@ -1,8 +1,5 @@
-# FL01 - Projection
-
----
-
 # Projection
+---
 
 Converting points from n dimension to m dimension, where m < n.
 
@@ -28,14 +25,14 @@ P(x, y, z) ——Projection—— P(x', y')
 
 COP - Center of Projection
 
-### Characteristics:
+#### Characteristics:
 
 - **Mimics human vision** – things look smaller as they get farther away.
 - **Has a vanishing point** – parallel lines appear to converge.
 - **Depth is realistic** – good for rendering real-world scenes (e.g., video games, 3D animation).
 - **Non-uniform scale** – objects farther away are scaled down more.
 
-### Example Use:
+#### Example Use:
 
 - Architectural visualization
 - 3D simulations
@@ -47,19 +44,19 @@ COP - Center of Projection
 
 **Definition**: A projection where the lines of sight (projectors) are parallel to each other and perpendicular (orthographic) or angled (oblique) to the projection plane.
 
-### Characteristics:
+#### Characteristics:
 
 - **No perspective distortion** – objects stay the same size regardless of depth.
 - **No vanishing point** – parallel lines remain parallel.
 - **More technical/diagrammatic** – ideal for engineering or CAD.
 - **Uniform scale** – good for precise measurements.
 
-### Types:
+#### Types:
 
 - **Orthographic Projection** – projectors are perpendicular to the projection plane (used in blueprints).
 - **Oblique Projection** – projectors are at an angle to the projection plane (used in some technical illustrations).
 
-### Example Use:
+#### Example Use:
 
 - Engineering and architectural drawings
 - CAD software
