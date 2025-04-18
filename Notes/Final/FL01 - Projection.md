@@ -6,7 +6,9 @@
 
 Converting points from n dimension to m dimension, where m < n.
 
-P(x, y, z) ——Projection—— P(x`, y`)
+```
+P(x, y, z) ——Projection—— P(x', y')
+```
 
 ## Types
 
