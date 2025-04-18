@@ -1,5 +1,4 @@
 # Projection
----
 
 Converting points from n dimension to m dimension, where m < n.
 
