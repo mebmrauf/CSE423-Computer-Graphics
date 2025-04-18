@@ -22,20 +22,20 @@ P(x, y, z) ——Projection—— P(x', y')
 
 ## Perspective vs Parallel Projection
 
-### 🔍 **1. Perspective Projection**
+### 1. Perspective Projection
 
 **Definition**: A projection where lines of sight (projectors) converge at a single point called COP (the viewer’s eye or camera).
 
 COP - Center of Projection
 
-### ✅ Characteristics:
+### Characteristics:
 
 - **Mimics human vision** – things look smaller as they get farther away.
 - **Has a vanishing point** – parallel lines appear to converge.
 - **Depth is realistic** – good for rendering real-world scenes (e.g., video games, 3D animation).
 - **Non-uniform scale** – objects farther away are scaled down more.
 
-### ✏️ Example Use:
+### Example Use:
 
 - Architectural visualization
 - 3D simulations
@@ -43,11 +43,11 @@ COP - Center of Projection
 
 ---
 
-### 🔧 **2. Parallel Projection**
+### 2. Parallel Projection
 
 **Definition**: A projection where the lines of sight (projectors) are parallel to each other and perpendicular (orthographic) or angled (oblique) to the projection plane.
 
-### ✅ Characteristics:
+### Characteristics:
 
 - **No perspective distortion** – objects stay the same size regardless of depth.
 - **No vanishing point** – parallel lines remain parallel.
@@ -59,7 +59,7 @@ COP - Center of Projection
 - **Orthographic Projection** – projectors are perpendicular to the projection plane (used in blueprints).
 - **Oblique Projection** – projectors are at an angle to the projection plane (used in some technical illustrations).
 
-### ✏️ Example Use:
+### Example Use:
 
 - Engineering and architectural drawings
 - CAD software
@@ -67,7 +67,7 @@ COP - Center of Projection
 
 ---
 
-### 🆚 **Quick Comparison Table**
+### Quick Comparison Table
 
 | Feature | Perspective Projection | Parallel Projection |
 | --- | --- | --- |
