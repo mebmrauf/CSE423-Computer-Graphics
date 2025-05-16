@@ -1,4 +1,4 @@
-# FL02 - Color Models
+# Color Models
 
 ### Achromatic or Monochrome
 
