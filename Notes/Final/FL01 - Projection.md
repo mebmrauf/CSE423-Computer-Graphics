@@ -33,9 +33,9 @@ COP - Center of Projection
 
 #### Example Use:
 
-- Architectural visualization
-- 3D simulations
-- Photography and cinematography
+- Video Games
+- Animation
+- Virtual Reality(VR)
 
 ---
 
@@ -47,13 +47,13 @@ COP - Center of Projection
 
 - **No perspective distortion** – objects stay the same size regardless of depth.
 - **No vanishing point** – parallel lines remain parallel.
-- **More technical/diagrammatic** – ideal for engineering or CAD.
+- **More technical/diagrammatic** – ideal for architectural planning and design.
 - **Uniform scale** – good for precise measurements.
 
 #### Types:
 
-- **Orthographic Projection** – projectors are perpendicular to the projection plane (used in blueprints).
-- **Oblique Projection** – projectors are at an angle to the projection plane (used in some technical illustrations).
+- **Orthographic Projection** – projectors are perpendicular to the projection plane. the DOP is equal to the normal vector of the plane.
+- **Oblique Projection** – projectors are at an angle to the projection plane (used in some technical illustrations). the DOP is not equal to the normal vector of the plane.
 
 #### Example Use:
 
