@@ -113,7 +113,7 @@ Value → brightness or intensity of a color
 - *Value Computation:*
     
     ```jsx
-    *v = cmax*
+    v = cmax
     ```
     
 
