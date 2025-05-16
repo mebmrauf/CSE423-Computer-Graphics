@@ -1,4 +1,4 @@
-# FL03 - Lighting Models and Shading
+# Lighting Models and Shading
 
 ![Screenshot 2025-05-16 at 8.23.46 PM.png](FL03%20-%20Lighting%20Models%20and%20Shading%/Screenshot_2025-05-16_at_8.23.46_PM.png)
 
