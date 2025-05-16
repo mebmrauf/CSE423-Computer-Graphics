@@ -132,3 +132,9 @@ When Projection Plane(PP) at origin
 ![Screenshot 2025-04-18 at 7.26.25 PM.png](FL01%20-%20Projection/Screenshot_2025-04-18_at_7.26.25_PM.png)
 
 ![Screenshot 2025-04-18 at 7.26.35 PM.png](FL01%20-%20Projection/Screenshot_2025-04-18_at_7.26.35_PM.png)
+
+
+```
+- Project a point, P' = M * P
+- Find COP, M * COP = 0
+```
