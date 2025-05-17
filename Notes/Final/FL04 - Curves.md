@@ -320,8 +320,8 @@ Find the 4 control points- B0, B1, B2, B3 of the middle Bézier curve (Curve B).
     - Need to find control points for curve B: B₀, B₁, B₂, B₃
     
     For C(1) continuity, we need:
-    1. **Value continuity** (C(0)): The endpoint of one curve must equal the starting point of the next
-    2. **Derivative continuity**: The tangent direction and magnitude at the join points must be equal
+    1. Position continuity (C(0)): The endpoint of one curve must equal the starting point of the next
+    2. Tangential continuity (C(1)): The tangent direction and magnitude at the join points must be equal
     
     Step 1: Establish B₀ and B₃
     
