@@ -1,4 +1,5 @@
 # Color Models
+A color model is a specification of a coordinate system and a subspace within that system where each color is represented by a single point.
 
 ### Achromatic or Monochrome
 
