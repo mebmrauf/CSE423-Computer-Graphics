@@ -6,4 +6,4 @@ A modern take on the classic Snake game - reimagined in 3D using Python and Open
 [**3D Snake Game**](https://github.com/mebmrauf/3D-Snake-Game)
 
 ## Screenshot
-![project image.jpg](project_image.jpg)
+![project image.jpg](Lab%Materials/Project/project_image.jpg)
