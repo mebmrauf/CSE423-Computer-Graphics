@@ -53,7 +53,7 @@ COP - Center of Projection
 #### Types:
 
 - **Orthographic Projection** – projectors are perpendicular to the projection plane. the DOP is equal to the normal vector of the plane.
-- **Oblique Projection** – projectors are at an angle to the projection plane (used in some technical illustrations). the DOP is not equal to the normal vector of the plane.
+- **Oblique Projection** – projectors are at an angle to the projection plane. the DOP is not equal to the normal vector of the plane.
 
 #### Example Use:
 
