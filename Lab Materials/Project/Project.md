@@ -7,4 +7,3 @@ A modern take on the classic Snake game - reimagined in 3D using Python and Open
 
 ## Screenshot
 ![project image](project_image.jpg)
-
