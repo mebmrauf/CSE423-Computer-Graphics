@@ -8,6 +8,9 @@
 
 Range of visible light : 380nm (blue)  - 780nm (red)
 
+### Color Gamut
+The color gamut describes a range of colors within the spectrum of colors, or a color space, that can be reproduced on an output device. Depending on how wide the gamut is, every screen will display different quantities of color. 
+
 ## RGB
 
 `RGB = Red, Green, Blue`
