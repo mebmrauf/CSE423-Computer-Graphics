@@ -4,8 +4,10 @@ A color model is a specification of a coordinate system and a subspace within th
 ### Achromatic or Monochrome
 
 - Basically it’s Black and White color
+- Different intensities of grey
 - RGB values are equal (R = G = B)
 - Lack of hue (pure color), saturation (intensity of a color) and brightness
+- Only measured using the quantity of light
 
 Range of visible light : 380nm (blue)  - 780nm (red)
 
