@@ -71,3 +71,27 @@
 ![Screenshot 2025-05-16 at 11.36.48 PM.png](FL03%20-%20Lighting%20Models%20and%20Shading/Screenshot_2025-05-16_at_11.36.48_PM.png)
 
 ![Screenshot 2025-05-16 at 11.37.05 PM.png](FL03%20-%20Lighting%20Models%20and%20Shading/Screenshot_2025-05-16_at_11.37.05_PM.png)
+
+## Shading
+
+![Lighting.pptx-images-42.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-42.jpg)
+
+![Lighting.pptx-images-43.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-43.jpg)
+
+![Lighting.pptx-images-44.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-44.jpg)
+
+![Lighting.pptx-images-45.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-45.jpg)
+
+![Lighting.pptx-images-46.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-46.jpg)
+
+![Lighting.pptx-images-47.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-47.jpg)
+
+![Lighting.pptx-images-48.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-48.jpg)
+
+![Lighting.pptx-images-49.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-49.jpg)
+
+![Lighting.pptx-images-50.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-50.jpg)
+
+![Lighting.pptx-images-51.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-51.jpg)
+
+![Lighting.pptx-images-52.jpg](FL03%20-%20Lighting%20Models%20and%20Shading/Lighting.pptx-images-52.jpg)
