@@ -17,32 +17,43 @@ https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=dri
 ## Playlist
 
 ### AJA
-https://youtube.com/playlist?list=PLhRm8DnB_rpZ2ABdaZRTbbUa08CMRIZx_&si=hKJodRNzyI7z2cYk
+  https://youtube.com/playlist?list=PLhRm8DnB_rpZ2ABdaZRTbbUa08CMRIZx_
 
 ### AAI
-https://youtube.com/playlist?list=PLMZnvBHNk2GWK8i1lcxx4exUXjtK8QSgK&si=HJ66vISG86hT5wT0
+  https://youtube.com/playlist?list=PLMZnvBHNk2GWK8i1lcxx4exUXjtK8QSgK
 
 ### MIBA
-https://youtube.com/playlist?list=PL5IrayslvHiGEnHoenkLSTqEAmmQtaoJb&si=xoQBA4v262t1JaoF
+  https://youtube.com/playlist?list=PL5IrayslvHiGEnHoenkLSTqEAmmQtaoJb
 
 ### AFA
 
 #### Youtube
-https://youtube.com/playlist?list=PLtQXTSdoymQetY8HSK6Y0ZsTH7avkozLR&si=uxIxsqiI9t4LFKot
+    https://youtube.com/playlist?list=PLtQXTSdoymQetY8HSK6Y0ZsTH7avkozLR
 
 #### Drive
-https://drive.google.com/drive/u/3/folders/18jNxejAPblYXoSZ7K7UifcWuYKD5tOz_
+    https://drive.google.com/drive/u/3/folders/18jNxejAPblYXoSZ7K7UifcWuYKD5tOz_
 
-### Till MID
-https://youtube.com/playlist?list=PLZIz0O6kXhzP1yzzZKK3Exbu93MiRpnO0&si=5gCoRV5T9HghsYb4
+### Others
 
-### MZU (After MID)
-https://youtube.com/playlist?list=PLDVV75am9g9we_IwWB4zCD_HkoR4oX775&si=iVON6gmPlK58-7l9
+#### Till MID
+    https://youtube.com/playlist?list=PLZIz0O6kXhzP1yzzZKK3Exbu93MiRpnO0&si=5gCoRV5T9HghsYb4
+
+#### After MID
+    https://youtube.com/playlist?list=PLDVV75am9g9we_IwWB4zCD_HkoR4oX775&si=iVON6gmPlK58-7l9
 
 ## Topic Wise Video
 
 ### DDA Algorithm
-https://youtu.be/WFKiy6BbkAY?si=l8EoJrVz-6TkvnG-
+  https://youtu.be/WFKiy6BbkAY
 
 ### Clipping Techniques
-https://youtu.be/n6JHBiIiYUE?si=luuc-gRVRueZWBDM
+  https://youtu.be/n6JHBiIiYUE
+
+### Color Model Introduction
+  https://youtu.be/t-czYuLjtOM
+
+### HSV Color Model
+  https://youtu.be/KUhWfbGExkk
+
+### HLS Color Model
+  https://youtu.be/avProcv8Zls
