@@ -10,20 +10,19 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 
 ## Suggested Books
 
-**Drive Link**
-
-https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=drive_link
+### Drive Link
+    https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=drive_link
 
 ## Playlist
 
 ### AJA
-  https://youtube.com/playlist?list=PLhRm8DnB_rpZ2ABdaZRTbbUa08CMRIZx_
+    https://youtube.com/playlist?list=PLhRm8DnB_rpZ2ABdaZRTbbUa08CMRIZx_
 
 ### AAI
-  https://youtube.com/playlist?list=PLMZnvBHNk2GWK8i1lcxx4exUXjtK8QSgK
+    https://youtube.com/playlist?list=PLMZnvBHNk2GWK8i1lcxx4exUXjtK8QSgK
 
 ### MIBA
-  https://youtube.com/playlist?list=PL5IrayslvHiGEnHoenkLSTqEAmmQtaoJb
+    https://youtube.com/playlist?list=PL5IrayslvHiGEnHoenkLSTqEAmmQtaoJb
 
 ### AFA
 
@@ -44,16 +43,16 @@ https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=dri
 ## Topic Wise Video
 
 ### DDA Algorithm
-  https://youtu.be/WFKiy6BbkAY
+    https://youtu.be/WFKiy6BbkAY
 
 ### Clipping Techniques
-  https://youtu.be/n6JHBiIiYUE
+    https://youtu.be/n6JHBiIiYUE
 
 ### Color Model Introduction
-  https://youtu.be/t-czYuLjtOM
+    https://youtu.be/t-czYuLjtOM
 
 ### HSV Color Model
-  https://youtu.be/KUhWfbGExkk
+    https://youtu.be/KUhWfbGExkk
 
 ### HLS Color Model
-  https://youtu.be/avProcv8Zls
+    https://youtu.be/avProcv8Zls
