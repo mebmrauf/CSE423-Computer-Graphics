@@ -1,7 +1,9 @@
 # CSE423: Computer Graphics
+
 Introduction to Graphical data processing. Fundamentals of interactive graphics Architecture of display devices and connectivity to a computer. Implementation of graphics concepts of two dimensional and three dimensional viewing, clipping and transformations. Hidden line algorithms. Raster graphics concepts: Architecture, algorithms and other image synthesis methods. Design of interactive graphic conversations. 
 
 ## Course Objective
+
 1. make students familiar with the basic steps of the graphics pipeline.
 2. make students understand the theories and underlying mathematics of graphics applications.
 3. understand the algorithms commonly used in 3D computer graphics
@@ -9,8 +11,6 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 5. demonstrate how to solve problem by designing project
 
 ## Suggested Books
-
-### Drive Link
     https://drive.google.com/drive/folders/1a1GzbHyuW65PtNEGKdZIl10181I84TJ-?usp=drive_link
 
 ## Playlist
@@ -48,11 +48,44 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 ### Clipping Techniques
     https://youtu.be/n6JHBiIiYUE
 
-### Color Model Introduction
+### Transformation Part01 [NMP]
+    https://youtu.be/icaFwQAzEPM
+
+### Transformation Part02 [NMP]
+    https://youtu.be/iadJJa-juGg
+
+### Problem Solving [MID] [NMP]
+    https://youtu.be/qKl7gdpuT_4
+
+### Projection Part01 [NMP]
+    https://youtu.be/xlY-lW9letE
+
+### Projection Part02 [NMP]
+    https://youtu.be/BYZerIDUw_8
+
+### Color Model Part01 [NMP]
+    https://youtu.be/2wLG7sE6IkI
+
+### Color Model Part02 [NMP]
+    https://youtu.be/aae0L70iYMU
+
+### Color Model Introduction [MZFZ]
     https://youtu.be/t-czYuLjtOM
 
-### HSV Color Model
+### HSV Color Model [MZFZ]
     https://youtu.be/KUhWfbGExkk
 
-### HLS Color Model
+### HLS Color Model [MZFZ]
     https://youtu.be/avProcv8Zls
+
+### Lighting [NMP]
+    https://youtu.be/qRnUWlmDO9w
+
+### Attenuation [NMP]
+    https://youtu.be/aWWtnYBfV1Q
+
+### Curves [NMP]
+    https://youtu.be/z-q1C6cUUoc
+
+### Problem Solving [Final] [NMP]
+    https://youtu.be/O-FoClEFOdA
