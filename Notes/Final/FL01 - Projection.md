@@ -165,7 +165,6 @@ While studying late at night for the CSE423 final, you realize it is gently rain
 
 ```jsx
 Step 1: Identify the projection parameters
-
 Eye position: (60, 200, -230)
 Window (projection plane): z = -250
 Flower position: (420, 84, -350)
@@ -175,15 +174,14 @@ qᵧ = copᵧ = 200
 qᵤ = copᵤ - zₚ = -230 - (-250) = 20
 zₚ = -250 (projection plane z-coordinate)
 
-Step 2: Build the projection matrix
 
+Step 2: Build the projection matrix
 [1   0   (-qₓ/qᵤ)     (zₚ·qₓ/qᵤ)  ]   [1   0   -3    -750 ]
 [0   1   (-qᵧ/qᵤ)     (zₚ·qᵧ/qᵤ)  ] = [0   1   -10   -2500]
 [0   0   (-zₚ/qᵤ)     (zₚ+zₚ²/qᵤ)] = [0   0   12.5  -3125]
 [0   0   (-1/qᵤ)      (1+zₚ/qᵤ)   ]   [0   0   -0.05 -11.5]
 
 Where:
-
 -qₓ/qᵤ = -60/20 = -3
 -qᵧ/qᵤ = -200/20 = -10
 -zₚ/qᵤ = -(-250)/20 = 12.5
@@ -192,6 +190,7 @@ zₚ·qₓ/qᵤ = (-250)(60)/20 = -750
 zₚ·qᵧ/qᵤ = (-250)(200)/20 = -2500
 zₚ + zₚ²/qᵤ = -250 + (-250)²/20 = -250 + 3125 = 2875
 1 + zₚ/qᵤ = 1 + (-250)/20 = 1 - 12.5 = -11.5
+
 
 Step 3: Apply matrix to flower coordinates
 Multiply the matrix by [420, 84, -350, 1]ᵀ
@@ -202,7 +201,6 @@ z'·w = 0(420) + 0(84) + (12.5)(-350) + (2875)(1) = -4375 + 2875 = -1500
 w = 0(420) + 0(84) + (-0.05)(-350) + (-11.5)(1) = 17.5 - 11.5 = 6
 
 Step 4: Normalize by w
-
 x' = x'·w / w = 720 / 6 = 120
 y' = y'·w / w = 1084 / 6 = 180.67
 z' = z'·w / w = -1500 / 6 = -250
