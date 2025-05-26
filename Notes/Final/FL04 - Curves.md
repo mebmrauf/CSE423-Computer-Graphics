@@ -120,94 +120,96 @@ C(2) - looks smooth
 - **G(1) continuity** requires that the function is continuous and the left and right derivatives at the point have the same direction (but not necessarily the same magnitude)
     
 ```jsx
-    a. At t = 2π
-    The function is defined as:
+a. At t = 2π
+The function is defined as:
     
-    For t ≤ 2π: (x(t), y(t)) = (t, sin t)
-    For t > 2π: (x(t), y(t)) = (t, 1 - cos t)
+For t ≤ 2π: (x(t), y(t)) = (t, sin t)
+For t > 2π: (x(t), y(t)) = (t, 1 - cos t)
     
-    First, let's check continuity (C(0)):
+First, let's check continuity (C(0)):
     
-    Left limit: (x(2π), y(2π)) = (2π, sin(2π)) = (2π, 0)
-    Right limit: (x(2π), y(2π)) = (2π, 1 - cos(2π)) = (2π, 1 - 1) = (2π, 0)
+Left limit: (x(2π), y(2π)) = (2π, sin(2π)) = (2π, 0)
+Right limit: (x(2π), y(2π)) = (2π, 1 - cos(2π)) = (2π, 1 - 1) = (2π, 0)
     
-    The function values match, so the function is continuous at t = 2π.
-    Now, let's check the first derivatives (for C(1)):
+The function values match, so the function is continuous at t = 2π.
+Now, let's check the first derivatives (for C(1)):
     
-    Left derivative: (x'(t), y'(t)) = (1, cos t), so at t = 2π: (1, cos(2π)) = (1, 1)
-    Right derivative: (x'(t), y'(t)) = (1, sin t), so at t = 2π: (1, sin(2π)) = (1, 0)
+Left derivative: (x'(t), y'(t)) = (1, cos t), so at t = 2π: (1, cos(2π)) = (1, 1)
+Right derivative: (x'(t), y'(t)) = (1, sin t), so at t = 2π: (1, sin(2π)) = (1, 0)
     
-    The derivatives don't match, so the function is not C(1) continuous at t = 2π.
-    For G(1) continuity, we need to check if the left and right derivatives point in the same direction:
+The derivatives don't match, so the function is not C(1) continuous at t = 2π.
+For G(1) continuity, we need to check if the left and right derivatives point in the same direction:
     
-    Left derivative at t = 2π: (1, 1)
-    Right derivative at t = 2π: (1, 0)
+Left derivative at t = 2π: (1, 1)
+Right derivative at t = 2π: (1, 0)
     
-    These vectors don't point in the same direction, so the function is not G(1) continuous at t = 2π.
+These vectors don't point in the same direction, so the function is not G(1) continuous at t = 2π.
 ```
     
 ```jsx
-    b. At t = π/4
-    The function is defined as:
+b. At t = π/4
+The function is defined as:
     
-    For t ≤ π/4: (x(t), y(t)) = (t, sin t)
-    For t > π/4: (x(t), y(t)) = (t, 1 - cos t)
+For t ≤ π/4: (x(t), y(t)) = (t, sin t)
+For t > π/4: (x(t), y(t)) = (t, 1 - cos t)
     
-    Let's check continuity:
+Let's check continuity:
     
-    Left limit: (x(π/4), y(π/4)) = (π/4, sin(π/4)) = (π/4, 1/√2) ≈ (π/4, 0.7071)
-    Right limit: (x(π/4), y(π/4)) = (π/4, 1 - cos(π/4)) = (π/4, 1 - 1/√2) ≈ (π/4, 0.2929)
+Left limit: (x(π/4), y(π/4)) = (π/4, sin(π/4)) = (π/4, 1/√2) ≈ (π/4, 0.7071)
+Right limit: (x(π/4), y(π/4)) = (π/4, 1 - cos(π/4)) = (π/4, 1 - 1/√2) ≈ (π/4, 0.2929)
     
-    The function values don't match, so the function is not continuous at t = π/4, which means it's neither C(1) nor G(1) continuous.
+The function values don't match, so the function is not continuous at t = π/4,
+which means it's neither C(1) nor G(1) continuous.
 ```
     
 ```jsx
-    c. At t = 1
-    The function is defined as:
+c. At t = 1
+The function is defined as:
     
-    For t < 1: (x(t), y(t)) = (6t, t³)
-    For t ≥ 1: (x(t), y(t)) = (t⁴ + 5, t²)
+For t < 1: (x(t), y(t)) = (6t, t³)
+For t ≥ 1: (x(t), y(t)) = (t⁴ + 5, t²)
     
-    Let's check continuity:
+Let's check continuity:
     
-    Left limit: (x(1), y(1)) = (6·1, 1³) = (6, 1)
-    Right limit: (x(1), y(1)) = (1⁴ + 5, 1²) = (6, 1)
+Left limit: (x(1), y(1)) = (6·1, 1³) = (6, 1)
+Right limit: (x(1), y(1)) = (1⁴ + 5, 1²) = (6, 1)
     
-    The function values match, so the function is continuous at t = 1.
-    Now, let's check the first derivatives:
+The function values match, so the function is continuous at t = 1.
+Now, let's check the first derivatives:
     
-    Left derivative: (x'(t), y'(t)) = (6, 3t²), so at t = 1: (6, 3)
-    Right derivative: (x'(t), y'(t)) = (4t³, 2t), so at t = 1: (4, 2)
+Left derivative: (x'(t), y'(t)) = (6, 3t²), so at t = 1: (6, 3)
+Right derivative: (x'(t), y'(t)) = (4t³, 2t), so at t = 1: (4, 2)
     
-    The derivatives don't match, so the function is not C(1) continuous at t = 1.
-    For G(1) continuity, we need to check if the left and right derivatives point in the same direction:
+The derivatives don't match, so the function is not C(1) continuous at t = 1.
+For G(1) continuity, we need to check if the left and right derivatives point in the same direction:
     
-    Left derivative at t = 1: (6, 3)
-    Right derivative at t = 1: (4, 2)
+Left derivative at t = 1: (6, 3)
+Right derivative at t = 1: (4, 2)
     
-    These vectors are proportional (right = 2/3 · left), so they point in the same direction. Therefore, the function is G(1) continuous at t = 1.
+These vectors are proportional (right = 2/3 · left), so they point in the same direction.
+Therefore, the function is G(1) continuous at t = 1.
 ```
     
 ```jsx
-    d. At t = 1
-    The function is defined as:
+d. At t = 1
+The function is defined as:
     
-    For t ≤ 1: (x(t), y(t)) = (t, t²)
-    For t > 1: (x(t), y(t)) = (t, t² + (t-1)³)
+For t ≤ 1: (x(t), y(t)) = (t, t²)
+For t > 1: (x(t), y(t)) = (t, t² + (t-1)³)
     
-    Let's check continuity:
+Let's check continuity:
     
-    Left limit: (x(1), y(1)) = (1, 1²) = (1, 1)
-    Right limit: (x(1), y(1)) = (1, 1² + (1-1)³) = (1, 1 + 0) = (1, 1)
+Left limit: (x(1), y(1)) = (1, 1²) = (1, 1)
+Right limit: (x(1), y(1)) = (1, 1² + (1-1)³) = (1, 1 + 0) = (1, 1)
     
-    The function values match, so the function is continuous at t = 1.
-    Now, let's check the first derivatives:
+The function values match, so the function is continuous at t = 1.
+Now, let's check the first derivatives:
     
-    Left derivative: (x'(t), y'(t)) = (1, 2t), so at t = 1: (1, 2)
-    Right derivative: (x'(t), y'(t)) = (1, 2t + 3(t-1)²), so at t = 1: (1, 2 + 0) = (1, 2)
+Left derivative: (x'(t), y'(t)) = (1, 2t), so at t = 1: (1, 2)
+Right derivative: (x'(t), y'(t)) = (1, 2t + 3(t-1)²), so at t = 1: (1, 2 + 0) = (1, 2)
     
-    The derivatives match, so the function is C(1) continuous at t = 1.
-    Since the function is C(1) continuous, it is also G(1) continuous at t = 1.
+The derivatives match, so the function is C(1) continuous at t = 1.
+Since the function is C(1) continuous, it is also G(1) continuous at t = 1.
 ```
 
 ### Problem 02
@@ -396,7 +398,7 @@ You are going to draw an enclosed boundary using 3 cubic Bézier curves joined t
 You want to insert the last Bézier curve (Curve R) between them such that the entire 3-curve segment is C' continuous. Evaluate the first control point Qo of the Second Bezier curve and the 4 control points- Ro R₁, R₂, R₃ of the last Bézier curve (Curve R).
 
 ```jsx
-Step01: Find Q₀ for C¹ continuity between Curve P and Curve Q
+Step 1: Find Q₀ for C¹ continuity between Curve P and Curve Q
 For C¹ continuity, we need:
 C⁰ continuity: End point of P = Start point of Q
 So Q₀ = P₃ = (6, 0)
