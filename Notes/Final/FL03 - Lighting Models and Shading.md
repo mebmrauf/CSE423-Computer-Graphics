@@ -128,18 +128,19 @@ The interpolated color at point P is (0.80, 0.66, 0.49).
 
 **Matt Murdock is on a mission and hides behind his glossy red sports car at night. An enemy is nearby, and the only light source is an orange streetlamp. To spot the enemy without revealing his position, Matt considers using one of three small mirrors with shininess values of 1, 20, and 50 H also notices that parts of his red car appear to have orange highlights under the street lamp. Which mirror should Matt use to best locate the enemy? Justify your choice using Phong's reflection model In addition, state the reason why the red car displays orange highlights under the orange street lamp.**
 
-**Best Mirror Choice**
-
 ```
+Best Mirror Choice
+
 Matt should use the mirror with shininess = 20. It provides the optimal balance
 - sharp enough for clear enemy detection but not so focused that it misses the target if positioning isn't perfect.
 ```
 
-**Why Red Car Shows Orange Highlights**
-
 ```
-The car's glossy surface creates specular reflections that directly mirror the orange streetlight color, while the diffuse reflections maintain
-the car's red paint color. In Phong's model, specular highlights take on the light source color regardless of the object's base color.
+Red Car Shows Orange Highlights
+
+The car's glossy surface creates specular reflections that directly mirror the orange streetlight color,
+while the diffuse reflections maintain the car's red paint color. In Phong's model,
+specular highlights take on the light source color regardless of the object's base color.
 ```
 
 ## Problem 03
