@@ -273,13 +273,14 @@ At 100% lightness, everything becomes white,
 and at 0% lightness, everything becomes black.
 
 Regarding Hue Calculation:
-Yes, both HSL and HSV use identical formulas for calculating Hue. The hue
-component is derived the same way in both models - it's based on which RGB
-component is dominant and the relationships between the RGB values. This is why
-the same hue value produces visually similar colors in both models. The hue
-represents the color's position on the color wheel (0-360 degrees), and this
-fundamental measurement remains consistent across both systems. Only difference
-is in HSV, if cmax = 0, hue = 0 and in HSL, if difference(cmax - cmin) = 0, hue = 0.
+Yes, both HSL and HSV use identical formulas for calculating Hue. The hue component is derived the same way in both models
+- it's based on which RGB component is dominant and the relationships between the RGB values.
+This is why the same hue value produces visually similar colors in both models.
+The hue represents the color's position on the color wheel (0-360 degrees),
+and this fundamental measurement remains consistent across both systems.
+Only difference,
+in HSV, if cmax = 0, hue = 0
+and in HSL, if difference(cmax - cmin) = 0, hue = 0.
 ```
 
 ### Problem 02
