@@ -215,6 +215,7 @@ Since the function is C(1) continuous, it is also G(1) continuous at t = 1.
 ### Problem 02
 
 Find the explicit representation of a quadratic curve going through the following 3 points using the Lagrange Polynomial:
+
 P0 = (0, 0), P1 = (1, 2), P2 = (2, 0)
     
 ```jsx
@@ -264,7 +265,9 @@ Therefore, the point on the cubic Bézier curve at t = 0.5 is (3, 2.5).
 ### Problem 05
 
 Given the four control points in 3D:
+
 P0 = (0,0,0), P1 = (3,6,0), P2 = (6,6,6), P3 = (9,0,6)
+
 Find the point on the cubic Bézier curve at t = 0.5.
     
 ```jsx
@@ -279,7 +282,9 @@ Therefore, the point on the cubic Bézier curve at t = 0.5 is (4.5, 4.5, 3).
 ### Problem 06
 
 Given the four control points in 2D:
+
 P0 = (0,0), P1 = (2,2), P2 = (4,-2), P3 = (6,0)
+
 Find the point on the cubic Bézier curve at t = 0.75.
     
 ```jsx
@@ -301,9 +306,13 @@ Therefore, the point on the cubic Bézier curve at t = 0.75 is (4.5, -0.5625).
 ### Problem 07
 
 Given the first three control points of a cubic Bézier curve:
+
 P0 = (2, 1), P1 = (3, 4), P2 = (5, 6)
+
 and the point on the curve at t = 0.5:
+
 f(0.5) = (4, 5)
+
 Find the fourth control point, P3 = (x3, y3).
     
 ```jsx
@@ -325,11 +334,17 @@ Therefore, the fourth control point is P₃ = (6,9).
 ### Problem 08
 
 You are going to draw 3 cubic Bézier curves joined together to form a single smooth composite curve. You have already decided upon the control points for the first and last Bézier curves:
+
 First Bézier curve (Curve A):
+
 A0 = (0, 0), A1 = (1, 2), A2 = (2, 2), A3 = (3, 0)
+
 Third Bézier curve (Curve C):
+
 C0 = (6, 0), C1 = (7, −2), C2 = (8, −2), C3 = (9, 0)
+
 You want to insert a Bézier curve (Curve B) between them such that the entire 3-curve segment is C(1) continuous.
+
 Find the 4 control points- B0, B1, B2, B3 of the middle Bézier curve (Curve B).
     
 ```jsx
