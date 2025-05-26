@@ -243,6 +243,8 @@ Saturation: 0=gray,1=fully vivid color
 
 ## Problem Solving
 
+**Note: There could be errors in the solution. Please double-check it.**
+
 ### Problem 01
 
 **Rachel, a game developer, is customizing magical glow effects in a fantasy game using a shader editor that supports both HSL and HSV color models. She notices that while the same Hue value gives similar colors in both, adjusting Saturation and Lightness/Value produces different results. Create a labeled diagram that visually represents the HSL color model. Describe the key differences between HSL and HSV in how they define and control color. Additionally, identify whether the HSL and HSV color models use the same formula for calculating Hue.**

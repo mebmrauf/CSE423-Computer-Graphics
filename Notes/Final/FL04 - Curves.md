@@ -108,7 +108,11 @@ C(2) - looks smooth
 
 ![Screenshot 2025-05-17 at 12.50.45 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.50.45_AM.png)
 
-## Practice Problems
+## Problem Solving
+
+**Note: There could be errors in the solution. Please double-check it.**
+
+### Problem 01
 
 ![Screenshot 2025-05-17 at 12.54.52 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.54.52_AM.png)
 
@@ -205,8 +209,10 @@ C(2) - looks smooth
     The derivatives match, so the function is C(1) continuous at t = 1.
     Since the function is C(1) continuous, it is also G(1) continuous at t = 1.
     ```
-    
-- Find the explicit representation of a quadratic curve going through the following 3 points using the Lagrange Polynomial:
+
+### Problem 02
+
+Find the explicit representation of a quadratic curve going through the following 3 points using the Lagrange Polynomial:
 P0 = (0, 0), P1 = (1, 2), P2 = (2, 0)
     
     ```jsx
@@ -226,11 +232,14 @@ P0 = (0, 0), P1 = (1, 2), P2 = (2, 0)
     Therefore, the quadratic curve is y = -2x² + 4x or y = 4x - 2x²
     ```
     
-- Derive the Basis Matrix for the cubic Bézier curve.
+### Problem 03
+Derive the Basis Matrix for the cubic Bézier curve.
     
     ![Screenshot 2025-05-17 at 12.49.03 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.49.03_AM%201.png)
     
-- Given four control points P0 = (1,1), P1 = (2,3), P2 = (4,3), and P3 = (5,1), find the point on the cubic Bézier curve at t = 0.5.
+### Problem 04
+
+Given four control points P0 = (1,1), P1 = (2,3), P2 = (4,3), and P3 = (5,1), find the point on the cubic Bézier curve at t = 0.5.
     
     ```jsx
     Given P₀ = (1,1), P₁ = (2,3), P₂ = (4,3), P₃ = (5,1), and t = 0.5.
@@ -250,7 +259,9 @@ P0 = (0, 0), P1 = (1, 2), P2 = (2, 0)
     Therefore, the point on the cubic Bézier curve at t = 0.5 is (3, 2.5).
     ```
     
-- Given the four control points in 3D:
+### Problem 05
+
+Given the four control points in 3D:
 P0 = (0,0,0), P1 = (3,6,0), P2 = (6,6,6), P3 = (9,0,6)
 Find the point on the cubic Bézier curve at t = 0.5.
     
@@ -263,7 +274,9 @@ Find the point on the cubic Bézier curve at t = 0.5.
     Therefore, the point on the cubic Bézier curve at t = 0.5 is (4.5, 4.5, 3).
     ```
     
-- Given the four control points in 2D:
+### Problem 06
+
+Given the four control points in 2D:
 P0 = (0,0), P1 = (2,2), P2 = (4,-2), P3 = (6,0)
 Find the point on the cubic Bézier curve at t = 0.75.
     
@@ -283,7 +296,9 @@ Find the point on the cubic Bézier curve at t = 0.75.
     Therefore, the point on the cubic Bézier curve at t = 0.75 is (4.5, -0.5625).
     ```
     
-- Given the first three control points of a cubic Bézier curve:
+### Problem 07
+
+Given the first three control points of a cubic Bézier curve:
 P0 = (2, 1), P1 = (3, 4), P2 = (5, 6)
 and the point on the curve at t = 0.5:
 f(0.5) = (4, 5)
@@ -305,7 +320,9 @@ Find the fourth control point, P3 = (x3, y3).
     Therefore, the fourth control point is P₃ = (6,9).
     ```
     
-- You are going to draw 3 cubic Bézier curves joined together to form a single smooth composite curve. You have already decided upon the control points for the first and last Bézier curves:
+### Problem 08
+
+You are going to draw 3 cubic Bézier curves joined together to form a single smooth composite curve. You have already decided upon the control points for the first and last Bézier curves:
 First Bézier curve (Curve A):
 A0 = (0, 0), A1 = (1, 2), A2 = (2, 2), A3 = (3, 0)
 Third Bézier curve (Curve C):

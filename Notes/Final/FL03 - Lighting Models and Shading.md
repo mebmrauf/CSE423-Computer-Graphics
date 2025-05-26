@@ -99,6 +99,8 @@
 
 ## Problem Solving
 
+**Note: There could be errors in the solution. Please double-check it.**
+
 ### Problem 01
 
 **In a 3D modeling software, Rachel is applying color to a rectangular panel. The rectangle is defined by the vertices A(-400, 500), B(400, 500), C(400, 300), and D(-400, 300). Let point P be the centroid of the rectangle. The color at vertex A is specified using the RGB color model with values (0.90, 0.72, 0.18), and the color at vertex C is (0.7, 0.6, 0.8). Using Gouraud shading, compute the interpolated color at point P.**
