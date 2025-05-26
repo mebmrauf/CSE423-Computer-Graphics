@@ -272,21 +272,29 @@ Yes, both HSL and HSV use identical formulas for calculating Hue. The hue compon
 **HSV = (45°, 0.8. 0.9), convert it to RGB.**
 
 **HSV to RGB**
+
 H = 45°, S = 0.8, V = 0.9
+
 
 C = V × S = 0.9 × 0.8 = 0.72
 
-X = C × (1 - |((H/60) mod 2) - 1|) 
+
+X = C × (1 - |((H/60) mod 2) - 1|)
+
 => 0.72 × (1 - |0.75 - 1|)
+
 => 0.72 × 0.75 = 0.54
 
+
 m = V - C = 0.9 - 0.72 = 0.18
+
 
 Since H = 45° is in the range 0° <= H < 60°:
 
 R = C + m = 0.72 + 0.18 = 0.90
 G = X + m = 0.54 + 0.18 = 0.72
 B = 0 + m = 0.18
+
 
 RGB = (0.90, 0.72, 0.18)
 
@@ -298,8 +306,12 @@ RGB = (0.90, 0.72, 0.18)
 
 R = 1 - C, G = 1 - M, B = 1 - Y
 
+
 R = 1 - 0.3 = 0.7
+
 G = 1 - 0.4 = 0.6
+
 B = 1 - 0.2 = 0.8
+
 
 RGB = (0.7, 0.6, 0.8)
