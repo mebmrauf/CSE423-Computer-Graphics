@@ -243,7 +243,7 @@ Saturation: 0=gray,1=fully vivid color
 
 ## Problem Solving
 
-**Note: There could be errors in the solution. Please double-check it.**
+**Note: There may be errors in the solution. Please double-check it.**
 
 ### Problem 01
 

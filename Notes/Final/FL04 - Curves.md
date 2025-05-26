@@ -110,7 +110,7 @@ C(2) - looks smooth
 
 ## Problem Solving
 
-**Note: There could be errors in the solution. Please double-check it.**
+**Note: There may be errors in the solution. Please double-check it.**
 
 ### Problem 01
 

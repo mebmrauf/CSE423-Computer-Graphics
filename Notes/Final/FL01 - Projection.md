@@ -141,13 +141,13 @@ When Projection Plane(PP) at origin
 
 ## Problem Solving
 
-**Note: There could be errors in the solution. Please double-check it.**
+**Note: There may be errors in the solution. Please double-check it.**
 
 ### Problem 01
 
 A designer is creating a technical drawing of a mechanical part. In the drawing, the front face of the object is shown in true shape and size, while the depth is represented along lines receding at 45° to the horizontal, and the depth dimensions are kept at full scale. Identify which type of parallel projection is being used, and justify your answer with two characteristics of this projection type. What would change in the drawing if the depth axis were scaled to half its actual length?
 
-**Projection Type : **This is Cavalier Projection, a type of oblique parallel projection.
+**Projection Type :** This is Cavalier Projection, a type of oblique parallel projection.
 
 **Two Characteristics that Justify this**
 
