@@ -48,6 +48,12 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 ### Clipping Techniques
     https://youtu.be/n6JHBiIiYUE
 
+### Cohen Sutherland Algorithm [MZFZ]
+    https://youtu.be/tgex2qOB27Q
+
+### Cyrus Beck Algorithm [MZFZ]
+    https://youtu.be/hqjm6dgJ8Kg
+
 ### Transformation Part01 [NMP]
     https://youtu.be/icaFwQAzEPM
 
@@ -62,6 +68,9 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 
 ### Projection Part02 [NMP]
     https://youtu.be/BYZerIDUw_8
+
+### Projection Math [MZFZ]
+    https://youtu.be/EF-rzvqtUyQ
 
 ### Color Model Part01 [NMP]
     https://youtu.be/2wLG7sE6IkI
@@ -87,5 +96,26 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 ### Curves [NMP]
     https://youtu.be/z-q1C6cUUoc
 
+### Curves [MZFZ]
+    https://youtu.be/rz_1YmOUmXU
+
+### Lagrange Polynomial [MZFZ]
+    https://youtu.be/f0pYvRyMMoI
+    
+### Continuity [MZFZ]
+    https://youtu.be/MeToEwU7C5A
+
+### Bézier curve [MZFZ]
+    https://youtu.be/BvVk-ad4bNk
+
+### Curves Control Points [MZFZ]
+    https://youtu.be/p2zvKTxxGH8
+
+### Curves Math [MZFZ]
+    https://youtu.be/EVQ4uqercio
+    
 ### Problem Solving [Final] [NMP]
     https://youtu.be/O-FoClEFOdA
+
+### Final Overview [MZFZ]
+    https://youtu.be/zAwSIFjOmYc
