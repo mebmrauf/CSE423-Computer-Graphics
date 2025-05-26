@@ -381,3 +381,51 @@ Find the 4 control points- B0, B1, B2, B3 of the middle Bézier curve (Curve B).
     B₂ = (5, 2)
     B₃ = (6, 0)
     ```
+
+### Problem 09
+
+A point on the BÉZIER Curve is given by the equation : s = r1 + t(r2-r1). From this equation, derive the basis matrix of the BÉZIER Curve.
+
+![Screenshot 2025-05-17 at 12.48.54 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.48.54_AM.png)
+
+![Screenshot 2025-05-17 at 12.49.03 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.49.03_AM.png)
+
+### Problem 10
+
+You are going to draw an enclosed boundary using 3 cubic Bézier curves joined together to form a single smooth composite curve. You have already decided upon the control points for the first and second Bézier curves. Coordinates of the First Bézier curve (Curve P): Po (0, 0), P₁ (2, 3), P₂ (4, 3), P₃(6, 0), and the Second Bézier curve (Curve Q): Qo (?, ?), Q₁ (14, -3), Q₂ (16, -3), Q₃ (18, 0)
+
+You want to insert the last Bézier curve (Curve R) between them such that the entire 3-curve segment is C' continuous. Evaluate the first control point Qo of the Second Bezier curve and the 4 control points- Ro R₁, R₂, R₃ of the last Bézier curve (Curve R).
+
+```jsx
+Step01: Find Q₀ for C¹ continuity between Curve P and Curve Q
+For C¹ continuity, we need:
+C⁰ continuity: End point of P = Start point of Q
+So Q₀ = P₃ = (6, 0)
+
+Step 2: Determine Curve R control points
+Since we want an enclosed boundary, Curve R must connect Q₃ back to P₀.
+For C¹ continuity at the junction between Q and R:
+R₀ = Q₃ = (18, 0) (C⁰ continuity)
+For C¹ continuity at the junction between R and P:
+R₃ = P₀ = (0, 0) (C⁰ continuity to close the loop)
+
+Step 3: Calculate R₁ and R₂
+For C¹ continuity at Q₃-R₀ junction:
+R₁ - R₀ = k₁(Q₃ - Q₂) for some scalar k₁
+R₁ = (18, 0) + k₁(2, 3) = (18 + 2k₁, 3k₁)
+For C¹ continuality at R₃-P₀ junction:
+R₃ - R₂ = k₂(P₁ - P₀) for some scalar k₂
+(0, 0) - R₂ = k₂(2, 3)
+R₂ = (-2k₂, -3k₂)
+To maintain symmetry and smooth curvature, I'll choose k₁ = k₂ = -2:
+R₁ = (18 + 2(-2), 3(-2)) = (14, -6)
+R₂ = (-2(-2), -3(-2)) = (4, 6)
+
+Answer:
+Q₀ = (6, 0)
+Curve R control points:
+R₀ = (18, 0)
+R₁ = (14, -6)
+R₂ = (4, 6)
+R₃ = (0, 0)
+```
