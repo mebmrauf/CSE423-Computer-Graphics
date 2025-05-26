@@ -253,14 +253,33 @@ Rachel, a game developer, is customizing magical glow effects in a fantasy game 
 
 ```jsx
 Saturation Differences:
-In HSV, saturation represents how pure or vivid a color appears - 100% saturation gives you the most intense, pure color possible, while 0% gives you gray. In HSL, saturation works differently: it measures how far the color deviates from gray at that particular lightness level. This means a color can appear quite vivid in HSL even at moderate saturation values, depending on the lightness setting.
+In HSV, saturation represents how pure or vivid a color appears
+- 100% saturation gives you the most intense, pure color possible,
+while 0% gives you gray.
+
+In HSL, saturation works differently: it measures how far the color deviates
+from gray at that particular lightness level. This means a color can appear
+quite vivid in HSL even at moderate saturation values, depending on the
+lightness setting.
 
 Brightness Control Differences:
-HSV's "Value" represents the overall brightness or intensity of the color. At 100% value, you get the brightest possible version of that hue and saturation. At 0% value, everything becomes black regardless of hue or saturation.
-HSL's "Lightness" works more intuitively for many applications. At 50% lightness, you get the "pure" color. At 100% lightness, everything becomes white, and at 0% lightness, everything becomes black. This makes HSL particularly useful for creating realistic lighting effects since it better mimics how we perceive colors getting lighter or darker.
+HSV's "Value" represents the overall brightness or intensity of the color.
+At 100% value, you get the brightest possible version of that hue and saturation.
+At 0% value, everything becomes black regardless of hue or saturation.
+
+HSL's "Lightness" works more intuitively for many applications.
+At 50% lightness, you get the "pure" color.
+At 100% lightness, everything becomes white,
+and at 0% lightness, everything becomes black.
 
 Regarding Hue Calculation:
-Yes, both HSL and HSV use identical formulas for calculating Hue. The hue component is derived the same way in both models - it's based on which RGB component is dominant and the relationships between the RGB values. This is why the same hue value produces visually similar colors in both models. The hue represents the color's position on the color wheel (0-360 degrees), and this fundamental measurement remains consistent across both systems. Only difference is in HSV, if cmax = 0, hue = 0 and in HSL, if difference(cmax - cmin) = 0, hue = 0.
+Yes, both HSL and HSV use identical formulas for calculating Hue. The hue
+component is derived the same way in both models - it's based on which RGB
+component is dominant and the relationships between the RGB values. This is why
+the same hue value produces visually similar colors in both models. The hue
+represents the color's position on the color wheel (0-360 degrees), and this
+fundamental measurement remains consistent across both systems. Only difference
+is in HSV, if cmax = 0, hue = 0 and in HSL, if difference(cmax - cmin) = 0, hue = 0.
 ```
 
 ### Problem 02
@@ -273,7 +292,11 @@ H = 45°, S = 0.8, V = 0.9
 Using HSV to RGB conversion:
 
 C = V × S = 0.9 × 0.8 = 0.72
-X = C × (1 - |((H/60) mod 2) - 1|) = 0.72 × (1 - |0.75 - 1|) = 0.72 × 0.75 = 0.54
+
+X = C × (1 - |((H/60) mod 2) - 1|) 
+=> 0.72 × (1 - |0.75 - 1|)
+=> 0.72 × 0.75 = 0.54
+
 m = V - C = 0.9 - 0.72 = 0.18
 
 Since H = 45° is in the range 0° <= H < 60°:
