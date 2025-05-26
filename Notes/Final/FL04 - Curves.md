@@ -119,7 +119,7 @@ C(2) - looks smooth
 - **C(1) continuity** requires that both the function and its first derivative are continuous at the given point.
 - **G(1) continuity** requires that the function is continuous and the left and right derivatives at the point have the same direction (but not necessarily the same magnitude)
     
-    ```jsx
+```jsx
     a. At t = 2π
     The function is defined as:
     
@@ -144,9 +144,9 @@ C(2) - looks smooth
     Right derivative at t = 2π: (1, 0)
     
     These vectors don't point in the same direction, so the function is not G(1) continuous at t = 2π.
-    ```
+```
     
-    ```jsx
+```jsx
     b. At t = π/4
     The function is defined as:
     
@@ -159,9 +159,9 @@ C(2) - looks smooth
     Right limit: (x(π/4), y(π/4)) = (π/4, 1 - cos(π/4)) = (π/4, 1 - 1/√2) ≈ (π/4, 0.2929)
     
     The function values don't match, so the function is not continuous at t = π/4, which means it's neither C(1) nor G(1) continuous.
-    ```
+```
     
-    ```jsx
+```jsx
     c. At t = 1
     The function is defined as:
     
@@ -186,9 +186,9 @@ C(2) - looks smooth
     Right derivative at t = 1: (4, 2)
     
     These vectors are proportional (right = 2/3 · left), so they point in the same direction. Therefore, the function is G(1) continuous at t = 1.
-    ```
+```
     
-    ```jsx
+```jsx
     d. At t = 1
     The function is defined as:
     
@@ -208,56 +208,56 @@ C(2) - looks smooth
     
     The derivatives match, so the function is C(1) continuous at t = 1.
     Since the function is C(1) continuous, it is also G(1) continuous at t = 1.
-    ```
+```
 
 ### Problem 02
 
 Find the explicit representation of a quadratic curve going through the following 3 points using the Lagrange Polynomial:
 P0 = (0, 0), P1 = (1, 2), P2 = (2, 0)
     
-    ```jsx
-    For the points P₀ = (0, 0), P₁ = (1, 2), P₂ = (2, 0), we'll use the Lagrange interpolation formula:
-    L(x) = y₀L₀(x) + y₁L₁(x) + y₂L₂(x), where:
-    L₀(x) = [(x-x₁)(x-x₂)]/[(x₀-x₁)(x₀-x₂)]
-    L₁(x) = [(x-x₀)(x-x₂)]/[(x₁-x₀)(x₁-x₂)]
-    L₂(x) = [(x-x₀)(x-x₁)]/[(x₂-x₀)(x₂-x₁)]
-    Substituting our points:
+```jsx
+For the points P₀ = (0, 0), P₁ = (1, 2), P₂ = (2, 0), we'll use the Lagrange interpolation formula:
+L(x) = y₀L₀(x) + y₁L₁(x) + y₂L₂(x), where:
+L₀(x) = [(x-x₁)(x-x₂)]/[(x₀-x₁)(x₀-x₂)]
+L₁(x) = [(x-x₀)(x-x₂)]/[(x₁-x₀)(x₁-x₂)]
+L₂(x) = [(x-x₀)(x-x₁)]/[(x₂-x₀)(x₂-x₁)]
+Substituting our points:
     
-    L₀(x) = [(x-1)(x-2)]/[(0-1)(0-2)] = [(x-1)(x-2)]/[(-1)(-2)] = [(x-1)(x-2)]/[2]
-    L₁(x) = [(x-0)(x-2)]/[(1-0)(1-2)] = [x(x-2)]/[1(-1)] = [x(x-2)]/[-1]
-    L₂(x) = [(x-0)(x-1)]/[(2-0)(2-1)] = [x(x-1)]/[2(1)] = [x(x-1)]/[2]
+L₀(x) = [(x-1)(x-2)]/[(0-1)(0-2)] = [(x-1)(x-2)]/[(-1)(-2)] = [(x-1)(x-2)]/[2]
+L₁(x) = [(x-0)(x-2)]/[(1-0)(1-2)] = [x(x-2)]/[1(-1)] = [x(x-2)]/[-1]
+L₂(x) = [(x-0)(x-1)]/[(2-0)(2-1)] = [x(x-1)]/[2(1)] = [x(x-1)]/[2]
     
-    Now, L(x) = 0·L₀(x) + 2·L₁(x) + 0·L₂(x)
-    L(x) = 2·L₁(x) = 2·[x(x-2)]/[-1] = -2x(x-2) = -2x² + 4x
-    Therefore, the quadratic curve is y = -2x² + 4x or y = 4x - 2x²
-    ```
+Now, L(x) = 0·L₀(x) + 2·L₁(x) + 0·L₂(x)
+L(x) = 2·L₁(x) = 2·[x(x-2)]/[-1] = -2x(x-2) = -2x² + 4x
+Therefore, the quadratic curve is y = -2x² + 4x or y = 4x - 2x²
+```
     
 ### Problem 03
 Derive the Basis Matrix for the cubic Bézier curve.
     
-    ![Screenshot 2025-05-17 at 12.49.03 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.49.03_AM%201.png)
+![Screenshot 2025-05-17 at 12.49.03 AM.png](FL04%20-%20Curves/Screenshot_2025-05-17_at_12.49.03_AM%201.png)
     
 ### Problem 04
 
 Given four control points P0 = (1,1), P1 = (2,3), P2 = (4,3), and P3 = (5,1), find the point on the cubic Bézier curve at t = 0.5.
     
-    ```jsx
-    Given P₀ = (1,1), P₁ = (2,3), P₂ = (4,3), P₃ = (5,1), and t = 0.5.
-    Using the formula:
-    P(t) = (1-t)³P₀ + 3(1-t)²tP₁ + 3(1-t)t²P₂ + t³P₃
-    Let's calculate:
+```jsx
+Given P₀ = (1,1), P₁ = (2,3), P₂ = (4,3), P₃ = (5,1), and t = 0.5.
+Using the formula:
+P(t) = (1-t)³P₀ + 3(1-t)²tP₁ + 3(1-t)t²P₂ + t³P₃
+Let's calculate:
     
-    (1-0.5)³ = 0.5³ = 0.125
-    3(1-0.5)²(0.5) = 3(0.5²)(0.5) = 3(0.25)(0.5) = 0.375
-    3(1-0.5)(0.5)² = 3(0.5)(0.5²) = 3(0.5)(0.25) = 0.375
-    (0.5)³ = 0.125
+(1-0.5)³ = 0.5³ = 0.125
+3(1-0.5)²(0.5) = 3(0.5²)(0.5) = 3(0.25)(0.5) = 0.375
+3(1-0.5)(0.5)² = 3(0.5)(0.5²) = 3(0.5)(0.25) = 0.375
+(0.5)³ = 0.125
     
-    Now:
-    P(0.5) = 0.125·(1,1) + 0.375·(2,3) + 0.375·(4,3) + 0.125·(5,1)
-    = (0.125, 0.125) + (0.75, 1.125) + (1.5, 1.125) + (0.625, 0.125)
-    = (3, 2.5)
-    Therefore, the point on the cubic Bézier curve at t = 0.5 is (3, 2.5).
-    ```
+Now:
+P(0.5) = 0.125·(1,1) + 0.375·(2,3) + 0.375·(4,3) + 0.125·(5,1)
+= (0.125, 0.125) + (0.75, 1.125) + (1.5, 1.125) + (0.625, 0.125)
+= (3, 2.5)
+Therefore, the point on the cubic Bézier curve at t = 0.5 is (3, 2.5).
+```
     
 ### Problem 05
 
@@ -265,14 +265,14 @@ Given the four control points in 3D:
 P0 = (0,0,0), P1 = (3,6,0), P2 = (6,6,6), P3 = (9,0,6)
 Find the point on the cubic Bézier curve at t = 0.5.
     
-    ```jsx
-    Given P₀ = (0,0,0), P₁ = (3,6,0), P₂ = (6,6,6), P₃ = (9,0,6), and t = 0.5.
-    Using the same approach as in problem 3:
-    P(0.5) = 0.125·(0,0,0) + 0.375·(3,6,0) + 0.375·(6,6,6) + 0.125·(9,0,6)
-    = (0,0,0) + (1.125,2.25,0) + (2.25,2.25,2.25) + (1.125,0,0.75)
-    = (4.5, 4.5, 3)
-    Therefore, the point on the cubic Bézier curve at t = 0.5 is (4.5, 4.5, 3).
-    ```
+```jsx
+Given P₀ = (0,0,0), P₁ = (3,6,0), P₂ = (6,6,6), P₃ = (9,0,6), and t = 0.5.
+Using the same approach as in problem 3:
+P(0.5) = 0.125·(0,0,0) + 0.375·(3,6,0) + 0.375·(6,6,6) + 0.125·(9,0,6)
+= (0,0,0) + (1.125,2.25,0) + (2.25,2.25,2.25) + (1.125,0,0.75)
+= (4.5, 4.5, 3)
+Therefore, the point on the cubic Bézier curve at t = 0.5 is (4.5, 4.5, 3).
+```
     
 ### Problem 06
 
@@ -280,21 +280,21 @@ Given the four control points in 2D:
 P0 = (0,0), P1 = (2,2), P2 = (4,-2), P3 = (6,0)
 Find the point on the cubic Bézier curve at t = 0.75.
     
-    ```jsx
-    Given P₀ = (0,0), P₁ = (2,2), P₂ = (4,-2), P₃ = (6,0), and t = 0.75.
-    Let's calculate:
+```jsx
+Given P₀ = (0,0), P₁ = (2,2), P₂ = (4,-2), P₃ = (6,0), and t = 0.75.
+Let's calculate:
     
-    (1-0.75)³ = 0.25³ = 0.015625
-    3(1-0.75)²(0.75) = 3(0.25²)(0.75) = 3(0.0625)(0.75) = 0.140625
-    3(1-0.75)(0.75)² = 3(0.25)(0.75²) = 3(0.25)(0.5625) = 0.421875
-    (0.75)³ = 0.421875
+(1-0.75)³ = 0.25³ = 0.015625
+3(1-0.75)²(0.75) = 3(0.25²)(0.75) = 3(0.0625)(0.75) = 0.140625
+3(1-0.75)(0.75)² = 3(0.25)(0.75²) = 3(0.25)(0.5625) = 0.421875
+(0.75)³ = 0.421875
     
-    Now:
-    P(0.75) = 0.015625·(0,0) + 0.140625·(2,2) + 0.421875·(4,-2) + 0.421875·(6,0)
-    = (0,0) + (0.28125,0.28125) + (1.6875,-0.84375) + (2.53125,0)
-    = (4.5, -0.5625)
-    Therefore, the point on the cubic Bézier curve at t = 0.75 is (4.5, -0.5625).
-    ```
+Now:
+P(0.75) = 0.015625·(0,0) + 0.140625·(2,2) + 0.421875·(4,-2) + 0.421875·(6,0)
+= (0,0) + (0.28125,0.28125) + (1.6875,-0.84375) + (2.53125,0)
+= (4.5, -0.5625)
+Therefore, the point on the cubic Bézier curve at t = 0.75 is (4.5, -0.5625).
+```
     
 ### Problem 07
 
@@ -304,21 +304,21 @@ and the point on the curve at t = 0.5:
 f(0.5) = (4, 5)
 Find the fourth control point, P3 = (x3, y3).
     
-    ```jsx
-    Given P₀ = (2,1), P₁ = (3,4), P₂ = (5,6), f(0.5) = (4,5), and we need to find P₃ = (x₃,y₃).
-    Using the formula for a point on a cubic Bézier curve at t = 0.5:
-    f(0.5) = (1-0.5)³P₀ + 3(1-0.5)²(0.5)P₁ + 3(1-0.5)(0.5)²P₂ + (0.5)³P₃
-    f(0.5) = 0.125P₀ + 0.375P₁ + 0.375P₂ + 0.125P₃
-    Substituting the known values:
-    (4,5) = 0.125(2,1) + 0.375(3,4) + 0.375(5,6) + 0.125(x₃,y₃)
-    (4,5) = (0.25,0.125) + (1.125,1.5) + (1.875,2.25) + 0.125(x₃,y₃)
-    (4,5) = (3.25,3.875) + 0.125(x₃,y₃)
-    Solving for P₃:
-    0.125(x₃,y₃) = (4,5) - (3.25,3.875)
-    0.125(x₃,y₃) = (0.75,1.125)
-    (x₃,y₃) = (6,9)
-    Therefore, the fourth control point is P₃ = (6,9).
-    ```
+```jsx
+Given P₀ = (2,1), P₁ = (3,4), P₂ = (5,6), f(0.5) = (4,5), and we need to find P₃ = (x₃,y₃).
+Using the formula for a point on a cubic Bézier curve at t = 0.5:
+f(0.5) = (1-0.5)³P₀ + 3(1-0.5)²(0.5)P₁ + 3(1-0.5)(0.5)²P₂ + (0.5)³P₃
+f(0.5) = 0.125P₀ + 0.375P₁ + 0.375P₂ + 0.125P₃
+Substituting the known values:
+(4,5) = 0.125(2,1) + 0.375(3,4) + 0.375(5,6) + 0.125(x₃,y₃)
+(4,5) = (0.25,0.125) + (1.125,1.5) + (1.875,2.25) + 0.125(x₃,y₃)
+(4,5) = (3.25,3.875) + 0.125(x₃,y₃)
+Solving for P₃:
+0.125(x₃,y₃) = (4,5) - (3.25,3.875)
+0.125(x₃,y₃) = (0.75,1.125)
+(x₃,y₃) = (6,9)
+Therefore, the fourth control point is P₃ = (6,9).
+```
     
 ### Problem 08
 
@@ -330,57 +330,56 @@ C0 = (6, 0), C1 = (7, −2), C2 = (8, −2), C3 = (9, 0)
 You want to insert a Bézier curve (Curve B) between them such that the entire 3-curve segment is C(1) continuous.
 Find the 4 control points- B0, B1, B2, B3 of the middle Bézier curve (Curve B).
     
-    ```jsx
-    Given Information
-    - Curve A: A₀ = (0, 0), A₁ = (1, 2), A₂ = (2, 2), A₃ = (3, 0)
-    - Curve C: C₀ = (6, 0), C₁ = (7, -2), C₂ = (8, -2), C₃ = (9, 0)
-    - Need to find control points for curve B: B₀, B₁, B₂, B₃
+```jsx
+Given Information
+- Curve A: A₀ = (0, 0), A₁ = (1, 2), A₂ = (2, 2), A₃ = (3, 0)
+- Curve C: C₀ = (6, 0), C₁ = (7, -2), C₂ = (8, -2), C₃ = (9, 0)
+- Need to find control points for curve B: B₀, B₁, B₂, B₃
     
-    For C(1) continuity, we need:
-    1. Position continuity (C(0)): The endpoint of one curve must equal the starting point of the next
-    2. Tangential continuity (C(1)): The tangent direction and magnitude at the join points must be equal
+For C(1) continuity, we need:
+1. Position continuity (C(0)): The endpoint of one curve must equal the starting point of the next
+2. Tangential continuity (C(1)): The tangent direction and magnitude at the join points must be equal
     
-    Step 1: Establish B₀ and B₃
+Step 1: Establish B₀ and B₃
     
-    For value continuity:
-    - B₀ must equal A₃: B₀ = (3, 0)
-    - B₃ must equal C₀: B₃ = (6, 0)
+For value continuity:
+- B₀ must equal A₃: B₀ = (3, 0)
+- B₃ must equal C₀: B₃ = (6, 0)
     
-    Step 2: Determine B₁ based on A₂ and A₃
+Step 2: Determine B₁ based on A₂ and A₃
     
-    For derivative continuity at the A-B junction:
-    - The derivative at t=1 for curve A is: 3(A₃ - A₂)
-    - The derivative at t=0 for curve B is: 3(B₁ - B₀)
+For derivative continuity at the A-B junction:
+- The derivative at t=1 for curve A is: 3(A₃ - A₂)
+- The derivative at t=0 for curve B is: 3(B₁ - B₀)
     
-    These must be equal, so:
-    3(A₃ - A₂) = 3(B₁ - B₀)
-    A₃ - A₂ = B₁ - B₀
-    B₁ = B₀ + (A₃ - A₂)
-    B₁ = (3, 0) + ((3, 0) - (2, 2))
-    B₁ = (3, 0) + (1, -2)
-    B₁ = (4, -2)
+These must be equal, so:
+3(A₃ - A₂) = 3(B₁ - B₀)
+A₃ - A₂ = B₁ - B₀
+B₁ = B₀ + (A₃ - A₂)
+B₁ = (3, 0) + ((3, 0) - (2, 2))
+B₁ = (3, 0) + (1, -2)
+B₁ = (4, -2)
     
-    Step 3: Determine B₂ based on C₀ and C₁
+Step 3: Determine B₂ based on C₀ and C₁
     
-    For derivative continuity at the B-C junction:
-    - The derivative at t=1 for curve B is: 3(B₃ - B₂)
-    - The derivative at t=0 for curve C is: 3(C₁ - C₀)
+For derivative continuity at the B-C junction:
+- The derivative at t=1 for curve B is: 3(B₃ - B₂)
+- The derivative at t=0 for curve C is: 3(C₁ - C₀)
     
-    These must be equal, so:
-    3(B₃ - B₂) = 3(C₁ - C₀)
-    B₃ - B₂ = C₁ - C₀
-    B₂ = B₃ - (C₁ - C₀)
-    B₂ = (6, 0) - ((7, -2) - (6, 0))
-    B₂ = (6, 0) - (1, -2)
-    B₂ = (5, 2)
+These must be equal, so:
+3(B₃ - B₂) = 3(C₁ - C₀)
+B₃ - B₂ = C₁ - C₀
+B₂ = B₃ - (C₁ - C₀)
+B₂ = (6, 0) - ((7, -2) - (6, 0))
+B₂ = (6, 0) - (1, -2)
+B₂ = (5, 2)
     
-    Final Control Points for Curve B
-    
-    B₀ = (3, 0)
-    B₁ = (4, -2)
-    B₂ = (5, 2)
-    B₃ = (6, 0)
-    ```
+Final Control Points for Curve B
+B₀ = (3, 0)
+B₁ = (4, -2)
+B₂ = (5, 2)
+B₃ = (6, 0)
+```
 
 ### Problem 09
 
