@@ -90,6 +90,18 @@ Introduction to Graphical data processing. Fundamentals of interactive graphics 
 ### Lighting [NMP]
     https://youtu.be/qRnUWlmDO9w
 
+### Diffuse Reflection [MZFZ]
+    https://youtu.be/CfZicjCdqYE
+
+### Specular Reflection [MZFZ]
+    https://youtu.be/y8A1NIp052k
+
+### Shading [MZFZ]
+    https://youtu.be/nf6XUUXQNH4
+
+### Attenuation [MZFZ]
+    https://youtu.be/5PY58TveBAo
+
 ### Attenuation [NMP]
     https://youtu.be/aWWtnYBfV1Q
 
